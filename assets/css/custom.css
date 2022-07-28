@@ -1,0 +1,43 @@
+.stanvac-font{
+    font-size: 15px;
+}
+
+.btn-stanvac-orange {
+ background-color: #EF940C;
+ color:#fff;
+}
+
+.stanvac-login-content{
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.stanvac-login-background{
+    background-image: url("../img/login-bg.jpg");
+    max-width: 100vw;
+    max-height: 100vh;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.stanvac-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: px;
+    margin-left: -20px;
+    margin-bottom: -20px;
+}
+
+.login-logo img{
+    width: 90px;
+}
+
+.login-welcome{
+    font-size: 60px;
+    padding-top: 100px;
+}
+
+.sidebar-profile img {
+    width: 10px;
+}
