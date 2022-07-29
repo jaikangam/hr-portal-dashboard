@@ -7,9 +7,9 @@
  color:#fff;
 }
 
-.stanvac-login-content{
-    padding-left: 35px;
-    padding-right: 35px;
+.btn-stanvac-orange:hover{
+    background-color: #ef6500;
+    color:#fff;
 }
 
 .stanvac-login-background{
@@ -21,65 +21,85 @@
     background-size: 100% 100%;
 }
 
-.stanvac-row{
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -20px;
-    margin-bottom: -20px;
-    margin-right: -20px;
-}
-
 .login-logo img{
     width: 90px;
 }
 
-
-
 .sidebar-profile img {
     width: 10px;
-}
-
-
-
-body{
-    
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     /* body{
         background-color: orange;
-    } */
-    .stanvac-login-container-top{
-        padding-top: 20px;
+    }  */
+    .login-welcome{
+        font-size: 30px;
+        padding-top: 30px;
     }
+
+    .stanvac-login-background{
+        background-image: url("../img/login-bg.jpg");
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 5px;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .card-body {
+        padding: 0px 12px 12px;
+    }
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     /* body{
         background-color: yellow;
-    } */
+    }  */
+    .stanvac-login-background{
+        background-image: url("../img/login-bg.jpg");
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 5px;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
     .login-welcome{
         font-size: 30px;
         padding-top: 50px;
     }
-    .stanvac-login-container-top{
-        padding-top: 20px;
+    .stanvac-login-content{
+        padding-left: 10px;
+        padding-right: 10px;
     }
+    
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     /* body{
         background-color: red;
-    } */
+    }  */
     .login-welcome{
         font-size: 30px;
         padding-top: 50px;
     }
-    .stanvac-login-container-top{
-        padding-top: 20px;
+    .stanvac-login-background{
+        background-image: url("../img/login-bg.jpg");
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 5px;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .card-body {
+        padding: 0px 10px 10px;
+    }
+    .stanvac-login-content{
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 
@@ -87,10 +107,20 @@ body{
 @media only screen and (min-width: 992px) {
     /* body{
         background-color: green;
-    } */
+    }  */
     .login-welcome{
-        font-size: 40px;
+        font-size: 50px;
         padding-top: 130px;
+    }
+    .stanvac-login-background{
+        background-image: url("../img/login-bg.jpg");
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 5px;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        margin-left: -20px;
+        margin-bottom: -10px;
     }
     
 }
@@ -99,9 +129,23 @@ body{
 @media only screen and (min-width: 1200px) {
     /* body{
         background-color: black;
-    } */
+    }  */
     .login-welcome{
         font-size: 60px;
         padding-top: 120px;
     }
+    .stanvac-login-background{
+        background-image: url("../img/login-bg.jpg");
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 5px;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        margin-left: -20px;
+        margin-bottom: -10px;
+    }
+    .stanvac-login-content{
+        padding-left: 35px;
+        padding-right: 35px;
+    } 
 }
