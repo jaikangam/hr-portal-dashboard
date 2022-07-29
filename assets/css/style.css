@@ -283,6 +283,7 @@ h6 {
 /* Accordion */
 .accordion-item {
   border: 1px solid #ebeef4;
+  margin-bottom: 100px;
 }
 
 .accordion-button:focus {
