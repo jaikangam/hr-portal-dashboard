@@ -3,13 +3,15 @@
 }
 
 .btn-stanvac-orange {
- background-color: #EF940C;
- color:#fff;
+    background-color: #ef6500;
+    color:#fff;
+    border-radius: 5px;
 }
 
 .btn-stanvac-orange:hover{
     background-color: #ef6500;
     color:#fff;
+    border-radius: 5px;
 }
 
 .stanvac-login-background{
@@ -27,6 +29,74 @@
 
 .sidebar-profile img {
     width: 10px;
+}
+
+.stanvac-policies-card{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ef6500;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 15.5%;
+    padding: 20px 15px;
+}
+
+.stanvac-policies-card img{
+    padding-top: 10px;
+    padding-bottom: 15px;
+    width: 50px;
+}
+
+.stanvac-verification-card{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ef6500;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 24%;
+}
+
+.verification-btn{
+    
+}
+
+.stanvac-vp-font{
+    font-size: 20px;
+    color: #ef6500;
+}
+
+.employee-table{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ef6500;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.employee-table-user-email{
+    font-size: 13px;
+}
+
+.back-to-top {
+    background: #2387c8;
+}
+.back-to-top:hover{
+    background: #2387c8;
+}
+
+.pr-1{
+    padding-right: 5px;
+}
+
+.pr-2{
+    padding-right: 10px;
+}
+
+.pr-3{
+    padding-right: 15px;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -81,6 +151,7 @@
     }
     
 }
+
 
 
 
