@@ -31,16 +31,7 @@
     width: 10px;
 }
 
-.stanvac-policies-card{
-    border-style: solid;
-    border-width: 1px;
-    border-color: #ef6500;
-    border-radius: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
-    width: 15.5%;
-    padding: 20px 15px;
-}
+
 
 .stanvac-policies-card img{
     padding-top: 10px;
@@ -118,13 +109,25 @@
 .text-stanvac-orange{
     color: #ef6500;
 }
+.scrollme {
+    overflow-x: auto;
+}
+
+
+
+
+/* Resonsive code beign  */
+/* Resonsive code beign  */
+/* Resonsive code beign  */
+/* Resonsive code beign  */
+
 
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    .main{
+    /* .main{
         background-color: orange;
-    }
+    } */
     .login-welcome{
         font-size: 30px;
         padding-top: 30px;
@@ -150,6 +153,17 @@
         width: 97%;
         margin-bottom: 10px;
     }
+    .stanvac-policies-card{
+        border-style: solid;
+        border-width: 1px;
+        border-color: #ef6500;
+        border-radius: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 47%;
+        padding: 20px 15px;
+        margin-bottom: 10px;
+    }
 
 }
 
@@ -160,9 +174,9 @@
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    .main{
+    /* .main{
         background-color: yellow;
-    }
+    } */
     .stanvac-login-background{
         background-image: url("../img/login-bg.jpg");
         max-width: 100%;
@@ -189,6 +203,17 @@
         width: 48%;
         margin-bottom: 10px;
     }
+    .stanvac-policies-card{
+        border-style: solid;
+        border-width: 1px;
+        border-color: #ef6500;
+        border-radius: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 31%;
+        padding: 20px 15px;
+        margin-bottom: 10px;
+    }
     
 }
 
@@ -198,9 +223,9 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .main{
+    /* .main{
         background-color: red;
-    }  
+    }   */
     .login-welcome{
         font-size: 30px;
         padding-top: 50px;
@@ -229,13 +254,24 @@
         margin-right: 5px;
         width: 48%;
     }
+    .stanvac-policies-card{
+        border-style: solid;
+        border-width: 1px;
+        border-color: #ef6500;
+        border-radius: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 32%;
+        padding: 20px 15px;
+        margin-bottom: 10px;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .main{
+    /* .main{
         background-color: green;
-    } 
+    }  */
     .login-welcome{
         font-size: 50px;
         padding-top: 130px;
@@ -259,14 +295,24 @@
         margin-right: 5px;
         width: 49%;
     }
+    .stanvac-policies-card{
+        border-style: solid;
+        border-width: 1px;
+        border-color: #ef6500;
+        border-radius: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 15.5%;
+        padding: 20px 15px;
+    }
     
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    .main{
+    /* .main{
         background-color: #fff;
-    } 
+    }  */
     .login-welcome{
         font-size: 60px;
         padding-top: 120px;
@@ -294,8 +340,15 @@
         margin-right: 5px;
         width: 24%;
     }
+    .stanvac-policies-card{
+        border-style: solid;
+        border-width: 1px;
+        border-color: #ef6500;
+        border-radius: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 15.5%;
+        padding: 20px 15px;
+    }
 }
 
-.scrollme {
-    overflow-x: auto;
-}
