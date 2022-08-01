@@ -48,20 +48,6 @@
     width: 50px;
 }
 
-.stanvac-verification-card{
-    border-style: solid;
-    border-width: 1px;
-    border-color: #ef6500;
-    border-radius: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
-    width: 24%;
-}
-
-.verification-btn{
-    
-}
-
 .stanvac-vp-font{
     font-size: 20px;
     color: #ef6500;
@@ -108,26 +94,41 @@
 }
 
 .modal-content {
-    margin-top: 30%;
+    margin-top:25%;
 }
 
-.stanvac-btn-border{
+.stanvac-btn-border-orange{
     border-radius: 5px;
     padding-left: 30px;
     padding-right: 30px;
     border-color: #ef6500 !important;
 }
+.stanvac-btn-border-blue{
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-color: #2387c8 !important;
+}
+.placeholder-rtl{
+    text-align: right;
+}
+.text-stanvac-blue{
+    color: #2387c8;
+}
+.text-stanvac-orange{
+    color: #ef6500;
+}
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    /* body{
+    .main{
         background-color: orange;
-    }  */
+    }
     .login-welcome{
         font-size: 30px;
         padding-top: 30px;
     }
-
     .stanvac-login-background{
         background-image: url("../img/login-bg.jpg");
         max-width: 100%;
@@ -139,6 +140,16 @@
     .card-body {
         padding: 0px 12px 12px;
     }
+    .stanvac-verification-card{
+        border-style: solid;
+        border-width: 1px;
+        border-color: #ef6500;
+        border-radius: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 97%;
+        margin-bottom: 10px;
+    }
 
 }
 
@@ -149,9 +160,9 @@
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    /* body{
+    .main{
         background-color: yellow;
-    }  */
+    }
     .stanvac-login-background{
         background-image: url("../img/login-bg.jpg");
         max-width: 100%;
@@ -168,6 +179,16 @@
         padding-left: 10px;
         padding-right: 10px;
     }
+    .stanvac-verification-card{
+        border-style: solid;
+        border-width: 1px;
+        border-color: #ef6500;
+        border-radius: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 48%;
+        margin-bottom: 10px;
+    }
     
 }
 
@@ -177,9 +198,9 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    /* body{
+    .main{
         background-color: red;
-    }  */
+    }  
     .login-welcome{
         font-size: 30px;
         padding-top: 50px;
@@ -199,13 +220,22 @@
         padding-left: 10px;
         padding-right: 10px;
     }
+    .stanvac-verification-card{
+        border-style: solid;
+        border-width: 1px;
+        border-color: #ef6500;
+        border-radius: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 48%;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    /* body{
+    .main{
         background-color: green;
-    }  */
+    } 
     .login-welcome{
         font-size: 50px;
         padding-top: 130px;
@@ -220,14 +250,23 @@
         margin-left: -20px;
         margin-bottom: -10px;
     }
+    .stanvac-verification-card{
+        border-style: solid;
+        border-width: 1px;
+        border-color: #ef6500;
+        border-radius: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 49%;
+    }
     
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    /* body{
-        background-color: black;
-    }  */
+    .main{
+        background-color: #fff;
+    } 
     .login-welcome{
         font-size: 60px;
         padding-top: 120px;
@@ -246,4 +285,13 @@
         padding-left: 35px;
         padding-right: 35px;
     } 
+    .stanvac-verification-card{
+        border-style: solid;
+        border-width: 1px;
+        border-color: #ef6500;
+        border-radius: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 24%;
+    }
 }
