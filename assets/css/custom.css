@@ -99,6 +99,25 @@
     padding-right: 15px;
 }
 
+.sidebar-nav .nav-content a {
+    color: #fff;
+}
+
+.sidebar-nav .nav-content a:hover {
+    color: #fff;
+}
+
+.modal-content {
+    margin-top: 30%;
+}
+
+.stanvac-btn-border{
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-color: #ef6500 !important;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     /* body{
