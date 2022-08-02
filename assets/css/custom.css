@@ -1,6 +1,9 @@
 .stanvac-font{
     font-size: 15px;
 }
+.heading-font{
+    font-size: 25px;
+}
 
 .btn-stanvac-orange {
     background-color: #ef6500;
@@ -9,6 +12,11 @@
 }
 
 .btn-stanvac-orange:hover{
+    background-color: #ef6500;
+    color:#fff;
+    border-radius: 5px;
+}
+.btn-stanvac-orange:active{
     background-color: #ef6500;
     color:#fff;
     border-radius: 5px;
@@ -113,6 +121,13 @@
     overflow-x: auto;
 }
 
+/* Navbar code  */
+/* Navbar code  */
+/* Navbar code  */
+/* Navbar code  */
+
+
+
 
 
 
@@ -125,9 +140,9 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    /* .main{
+   .main{
         background-color: orange;
-    } */
+    } 
     .login-welcome{
         font-size: 30px;
         padding-top: 30px;
@@ -164,6 +179,19 @@
         padding: 20px 15px;
         margin-bottom: 10px;
     }
+    .nav-title{
+        text-decoration: none;
+        margin-left: 10px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 3px solid #2387c8;
+        font-size: 18px;
+        margin-bottom: -10px;
+        background-color: #fff;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 
 }
 
@@ -174,9 +202,9 @@
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    /* .main{
+   /* .main{
         background-color: yellow;
-    } */
+    }  */
     .stanvac-login-background{
         background-image: url("../img/login-bg.jpg");
         max-width: 100%;
@@ -214,6 +242,19 @@
         padding: 20px 15px;
         margin-bottom: 10px;
     }
+    .nav-title{
+        text-decoration: none;
+        margin-left: 10px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 3px solid #2387c8;
+        font-size: 20px;
+        margin-bottom: -5px;
+        background-color: #fff;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
     
 }
 
@@ -223,9 +264,9 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    /* .main{
+  /* .main{
         background-color: red;
-    }   */
+    }    */
     .login-welcome{
         font-size: 30px;
         padding-top: 50px;
@@ -269,9 +310,9 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    /* .main{
+   /* .main{
         background-color: green;
-    }  */
+    }   */
     .login-welcome{
         font-size: 50px;
         padding-top: 130px;
@@ -349,6 +390,19 @@
         margin-right: 5px;
         width: 15.5%;
         padding: 20px 15px;
+    }
+    .nav-title{
+        text-decoration: none;
+        margin-left: 10px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 3px solid #2387c8;
+        font-size: 21px;
+        margin-bottom: -5px;
+        background-color: #fff;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 }
 
