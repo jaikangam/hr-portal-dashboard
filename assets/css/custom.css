@@ -181,7 +181,7 @@
     }
     .nav-title{
         text-decoration: none;
-        margin-left: 10px;
+        margin-left: 1px;
         border-top: none;
         border-left: none;
         border-right: none;
@@ -198,12 +198,14 @@
     .header-nav .nav-icon {
         font-size: 22px;
         color: #012970;
-        margin-right: 15px;
         position: relative;
-        margin-left: 15px;
+        
     }
     .header-nav .nav-profile {
         color: #012970;
+    }
+    .superon-logo-responsive{
+        display: none;   
     }
 }
 
@@ -269,6 +271,9 @@
     }
     .employee{
         display: none;
+    }
+    .superon-logo-responsive{
+        display: none;   
     }
     
 }
