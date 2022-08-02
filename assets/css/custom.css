@@ -139,7 +139,7 @@
 
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 575.98px) {
    .main{
         background-color: orange;
     } 
@@ -192,7 +192,19 @@
         padding-top: 10px;
         padding-bottom: 10px;
     }
-
+    .employee{
+        display: none;
+    }
+    .header-nav .nav-icon {
+        font-size: 22px;
+        color: #012970;
+        margin-right: 15px;
+        position: relative;
+        margin-left: 15px;
+    }
+    .header-nav .nav-profile {
+        color: #012970;
+    }
 }
 
 .stanvac-mb-10 {
@@ -201,10 +213,10 @@
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-   /* .main{
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .main{
         background-color: yellow;
-    }  */
+    } 
     .stanvac-login-background{
         background-image: url("../img/login-bg.jpg");
         max-width: 100%;
@@ -255,6 +267,9 @@
         padding-top: 10px;
         padding-bottom: 10px;
     }
+    .employee{
+        display: none;
+    }
     
 }
 
@@ -263,10 +278,10 @@
 
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  /* .main{
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .main{
         background-color: red;
-    }    */
+    }    
     .login-welcome{
         font-size: 30px;
         padding-top: 50px;
@@ -306,13 +321,29 @@
         padding: 20px 15px;
         margin-bottom: 10px;
     }
+    .nav-title{
+        text-decoration: none;
+        margin-left: 10px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 3px solid #2387c8;
+        font-size: 20px;
+        margin-bottom: -5px;
+        background-color: #fff;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .employee{
+        display: none;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-   /* .main{
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .main{
         background-color: green;
-    }   */
+    } 
     .login-welcome{
         font-size: 50px;
         padding-top: 130px;
@@ -346,14 +377,30 @@
         width: 15.5%;
         padding: 20px 15px;
     }
+    .nav-title{
+        text-decoration: none;
+        margin-left: 10px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 3px solid #2387c8;
+        font-size: 20px;
+        margin-bottom: -5px;
+        background-color: #fff;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .employee{
+        display: none;
+    }
     
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    /* .main{
+@media only screen and (min-width: 1200px)  {
+    .main{
         background-color: #fff;
-    }  */
+    } 
     .login-welcome{
         font-size: 60px;
         padding-top: 120px;
