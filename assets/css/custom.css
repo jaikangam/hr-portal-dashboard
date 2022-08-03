@@ -127,7 +127,17 @@
 /* Navbar code  */
 
 
+.stanvac-mb-10 {
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
 
+.header-nav .nav-icon {
+    font-size: 22px;
+    color: #012970;
+    /* margin-right: 25px; */
+    position: relative;
+}
 
 
 
@@ -195,24 +205,13 @@
     .employee{
         display: none;
     }
-    .header-nav .nav-icon {
-        font-size: 22px;
-        color: #012970;
-        position: relative;
-        
-    }
-    .header-nav .nav-profile {
-        color: #012970;
-    }
+ 
     .superon-logo-responsive{
         display: none;   
     }
 }
 
-.stanvac-mb-10 {
-    margin-bottom: 10px;
-    border-radius: 5px;
-}
+
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -339,9 +338,7 @@
         padding-top: 10px;
         padding-bottom: 10px;
     }
-    .employee{
-        display: none;
-    }
+    
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -403,9 +400,9 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px)  {
-    .main{
+    /* .main{
         background-color: #fff;
-    } 
+    }  */
     .login-welcome{
         font-size: 60px;
         padding-top: 120px;
@@ -458,3 +455,8 @@
     }
 }
 
+
+
+/* Joining Form */
+/* Joining Form */
+/* Joining Form */
