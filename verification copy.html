@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title> Joining Form - Stanvac </title>
+  <title> Stanvac - HR Portal </title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -18,19 +18,16 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> 
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <!-- <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
   <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet"> -->
-   
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
 
-  <!-- Main CSS File -->
+  <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-  <link href="assets/css/custom.css" rel="stylesheet">
   <link href="assets/css/wizard-form.css" rel="stylesheet">
 
 </head>
@@ -63,6 +60,7 @@
   </header>
   <!-- End Header -->
 
+
   <div class="multisteps-form">
 
     <!-- Start Progress bar-->
@@ -70,10 +68,10 @@
       <div class="col-12 col-lg-8 ml-auto mr-auto mb-4 ">
         <h3 class="text-center p-3">  JOINING FORM </h3>
         <div class="multisteps-form__progress">
-          <button class="multisteps-form__progress-btn js-active" type="button" title="User Info"> <br> Personal <br> Information</button>
-          <button class="multisteps-form__progress-btn" type="button" title="Address"><br> Education <br> Details </button>
-          <button class="multisteps-form__progress-btn" type="button" title="Order Info"> <br>Work <br> Experience </button>
-          <button class="multisteps-form__progress-btn" type="button" title="Comments"> <br> Other <br>  Details </button>
+          <button class="multisteps-form__progress-btn js-active" type="button" title="User Info">Personal <br>Information</button>
+          <button class="multisteps-form__progress-btn" type="button" title="Address">Education <br> Details </button>
+          <button class="multisteps-form__progress-btn" type="button" title="Order Info"> Work <br> Experience </button>
+          <button class="multisteps-form__progress-btn" type="button" title="Comments">Other <br>  Details </button>
         </div>
       </div>
     </div>
@@ -822,20 +820,257 @@
 
   </div>
 
+
+  <main id="main" class="main">
+
+    <section class="section">
+      <!-- Verification Row -->
+      <div class="row pt-3">
+
+        <div class="col-lg-3 col-md-6 col-sm-12 stanvac-verification-card text-center d-flex justify-content-between">
+          
+            <div class="pt-4 pb-4 px-2 ">Verification Pending</div>  
+            <div class="pt-4 pb-4 px-2 stanvac-vp-font"> <b> 52 </b></div>
+        
+        </div>    
+        
+        
+        <div class="col-lg-3 col-md-6 col-sm-12 stanvac-verification-card text-center d-flex justify-content-between">
+        
+          <div class="pt-4 pb-4 px-2 "> Unfilled Form  </div>  
+            <div class="pt-4 pb-4 px-2 stanvac-vp-font"> <b> 13 </b></div>
+        </div>  
+
+
+        <div class="col-lg-3 col-md-6 col-sm-12 ">
+          
+          
+        </div>  
+
+        <div class="col-lg-3 col-md-6 col-sm-12 text-center ">
+          <div class="d-flex flex-row-reverse">
+            <button type="button" class=" btn  btn-stanvac-orange verification-btn px-4" data-bs-toggle="modal" data-bs-target="#ExtralargeModal"> + Add </button>
+          </div>
+        </div> 
+        <!-- Modal Large -->
+      <div class="modal fade" id="ExtralargeModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content pb-3">
+            <div class="modal-header">
+              <h5 class="modal-title"> FORM </h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+        
+              <!-- Vertical Form -->
+              <form class="row g-3">
+                  <div class="col-lg-4">
+                    <label for="inputNanme4" class="form-label"> Name</label>
+                    <input type="text" class="form-control" id="inputNanme4">
+                  </div>
+                  <div class="col-lg-4">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                  </div>
+                  <div class="col-lg-4">
+                    <label for="inputNanme4" class="form-label"> Mobile Number</label>
+                    <input type="text" class="form-control" id="inputNanme4">
+                  </div>
+                  <div class="col-lg-4">
+                    <label for="inputNanme4" class="form-label"> Company </label>
+                    <input type="text" class="form-control" id="inputNanme4">
+                  </div>
+                  <div class="col-lg-4">
+                    <label for="inputNanme4" class="form-label"> Designation </label>
+                    <input type="text" class="form-control" id="inputNanme4">
+                  </div>
+                  <div class="col-lg-4">
+                    <label for="inputNanme4" class="form-label"> Refer Name </label>
+                    <input type="text" class="form-control" id="inputNanme4">
+                  </div>
+                  <div class="col-lg-6">
+                    <input type="text" class="form-control placeholder-rtl text-stanvac-blue" id="inputNanme4" placeholder="Generate Password">
+                  </div>
+                  <div class="col-lg-6 text-stanvac-blue">
+                    <input type="text" class="form-control placeholder-rtl" id="inputNanme4" placeholder="Generate Link">
+                  </div>
+                  <div class="text-center pt-2">
+                    <button type="submit" class="btn border stanvac-btn-border-orange text-stanvac-orange px-5"> Save </button>
+                    <button type="submit" class="btn border stanvac-btn-border-blue text-stanvac-blue px-5"> Share  </button>
+                  </div>
+                  
+              </form><!-- Vertical Form -->
+
+            </div>
+            
+          </div>
+        </div>
+      </div><!-- End  Large Modal-->
+        
+      </div>
+      
+
+      </div>
+      <!-- Close Vertification Row  -->
+
+    </section>
+
+    <section class="section">
+      <div class="row pt-3 pb-5 pr-3">
+
+ 
+          <div class=" scrollme employee-table">
+            
+              <h5 class="card-title"> Employee List  </h5>
+
+              <!-- Default Table -->
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col"><input type="checkbox" class="form-check-input" id="exampleCheck1"></th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Employee ID</th>
+                    <th scope="col">Phone </th>
+                    <th scope="col">Join Date</th>
+                    <th scope="col">Role</th>
+                    <th scope="col">Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th><input type="checkbox" class="form-check-input" id="exampleCheck1"></th>
+                    <td>Rohit Kumar <br> <span class="employee-table-user-email"> webdesigning@stanvac.com </span> </td>
+                    <td>110026</td>
+                    <td>+91-8585909586</td>
+                    <td>01 Jan, 2020</td>
+                    <td>UI Designer</td>
+                    <td><i class="bi bi-eye px-1"></i> <i class="bi bi-pencil-square px-1"></i></td>
+                  </tr>
+
+                  <tr>
+                    <th><input type="checkbox" class="form-check-input" id="exampleCheck1"></th>
+                    <td>Rohit Kumar <br> <span class="employee-table-user-email"> webdesigning@stanvac.com </span>  </td>
+                    <td>110026</td>
+                    <td>+91-8585909586</td>
+                    <td>01 Jan, 2020</td>
+                    <td>UI Designer</td>
+                    <td><i class="bi bi-eye px-1"></i> <i class="bi bi-pencil-square px-1"></i></td>
+                  </tr>
+                  <tr>
+                    <th><input type="checkbox" class="form-check-input" id="exampleCheck1"></th>
+                    <td>Rohit Kumar <br> <span class="employee-table-user-email"> webdesigning@stanvac.com </span>  </td>
+                    <td>110026</td>
+                    <td>+91-8585909586</td>
+                    <td>01 Jan, 2020</td>
+                    <td>UI Designer</td>
+                    <td><i class="bi bi-eye px-1"></i> <i class="bi bi-pencil-square px-1"></i></td>
+                  </tr>
+                  <tr>
+                    <th><input type="checkbox" class="form-check-input" id="exampleCheck1"></th>
+                    <td>Rohit Kumar <br> <span class="employee-table-user-email"> webdesigning@stanvac.com </span>  </td>
+                    <td>110026</td>
+                    <td>+91-8585909586</td>
+                    <td>01 Jan, 2020</td>
+                    <td>UI Designer</td>
+                    <td><i class="bi bi-eye px-1"></i> <i class="bi bi-pencil-square px-1"></i></td>
+                  </tr>
+                  <tr>
+                    <th><input type="checkbox" class="form-check-input" id="exampleCheck1"></th>
+                    <td>Rohit Kumar <br> <span class="employee-table-user-email"> webdesigning@stanvac.com </span>  </td>
+                    <td>110026</td>
+                    <td>+91-8585909586</td>
+                    <td>01 Jan, 2020</td>
+                    <td>UI Designer</td>
+                    <td><i class="bi bi-eye px-1"></i> <i class="bi bi-pencil-square px-1"></i></td>
+                  </tr>
+                  <tr>
+                    <th><input type="checkbox" class="form-check-input" id="exampleCheck1"></th>
+                    <td>Rohit Kumar <br> <span class="employee-table-user-email"> webdesigning@stanvac.com </span>  </td>
+                    <td>110026</td>
+                    <td>+91-8585909586</td>
+                    <td>01 Jan, 2020</td>
+                    <td>UI Designer</td>
+                    <td><i class="bi bi-eye px-1"></i> <i class="bi bi-pencil-square px-1"></i></td>
+                  </tr>
+                  <tr>
+                    <th><input type="checkbox" class="form-check-input" id="exampleCheck1"></th>
+                    <td>Rohit Kumar <br> <span class="employee-table-user-email"> webdesigning@stanvac.com </span>  </td>
+                    <td>110026</td>
+                    <td>+91-8585909586</td>
+                    <td>01 Jan, 2020</td>
+                    <td>UI Designer</td>
+                    <td><i class="bi bi-eye px-1"></i> <i class="bi bi-pencil-square px-1"></i></td>
+                  </tr>
+                  <tr>
+                    <th><input type="checkbox" class="form-check-input" id="exampleCheck1"></th>
+                    <td>Rohit Kumar <br> <span class="employee-table-user-email"> webdesigning@stanvac.com </span>  </td>
+                    <td>110026</td>
+                    <td>+91-8585909586</td>
+                    <td>01 Jan, 2020</td>
+                    <td>UI Designer</td>
+                    <td><i class="bi bi-eye px-1"></i> <i class="bi bi-pencil-square px-1"></i></td>
+                  </tr>
+                  <tr>
+                    <th><input type="checkbox" class="form-check-input" id="exampleCheck1"></th>
+                    <td>Rohit Kumar <br> <span class="employee-table-user-email"> webdesigning@stanvac.com </span>  </td>
+                    <td>110026</td>
+                    <td>+91-8585909586</td>
+                    <td>01 Jan, 2020</td>
+                    <td>UI Designer</td>
+                    <td><i class="bi bi-eye px-1"></i> <i class="bi bi-pencil-square px-1"></i></td>
+                  </tr>
+                  
+                 
+                  
+                </tbody>
+              </table>
+              <!-- End Default Table Example -->
+
+              <div class="d-flex flex-row-reverse">
+                <nav aria-label="Page navigation example">
+                  <ul class="pagination">
+                    <li class="page-item">
+                      <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                      </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                      <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              
+          
+          </div>
+          
+       
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  
+
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-
-  <!-- <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/chart.js/chart.min.js"></script>
   <script src="assets/vendor/echarts/echarts.min.js"></script>
   <script src="assets/vendor/quill/quill.min.js"></script>
   <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
   <script src="assets/vendor/tinymce/tinymce.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script> -->
+  <script src="assets/vendor/php-email-form/validate.js"></script>
 
-  <!-- Main JS File -->
-
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
   <script src="assets/js/wizard.js"></script>
 
 </body>

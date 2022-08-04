@@ -111,3 +111,6 @@ const DOMstrings = {
 
 
 //End the Joining Form Wizard 
+function scrollToTop() {
+  window.scrollTo(0, 0);
+}
