@@ -128,104 +128,151 @@
 
 
 
-    <!-- ========== Sidebar ========== -->
-    <aside id="sidebar" class="sidebar">
+     <!-- ========== Sidebar ========== -->
+  <aside id="sidebar" class="sidebar">
 
-      <ul class="sidebar-nav" id="sidebar-nav">
-        
-        <!-- Username -->
-        <li class="nav-item px-3">
-          <div class="text-center d-flex justify-content-start pt-3">
-            <img src="assets/img/table-avatar.jpg" alt="Profile" class="rounded-circle"> 
-            <span class="sidebar-username"> Garima </span>
-          </div>
-        </li>
-        <!-- End Username -->
-  
-  
-        <hr class="sidebar-hr"> 
-  
-        <!-- Sidebar Menu -->
-        <div class="sidebar-menu">
-          <li class="nav-item">
-            <a class="nav-link " href="master-data.html">
-              <i class="bi bi-caret-right-fill"></i>
-              <span>Master Data  </span>
-            </a>
-          </li>
-  
-          <li class="nav-item">
-            <a class="nav-link collapsed" href="verification.html">
-              <i class="bi bi-caret-right-fill"></i>
-              <span> Verification  </span>
-            </a>  
-          </li>
-  
-          <li class="nav-item">
-            <a class="nav-link collapsed" href="policies.html">
-              <i class="bi bi-caret-right-fill"></i>
-              <span> Policy  </span>
-            </a>
-          </li>
-  
-          <li class="nav-item">
-            <a class="nav-link collapsed" href="on-hold-data.html">
-              <i class="bi bi-caret-right-fill"></i>
-              <span> On Hold Data  </span>
-            </a>
-          </li>
-  
+    <ul class="sidebar-nav" id="sidebar-nav">
+      
+      <!-- Username -->
+      <li class="nav-item px-3">
+        <div class="text-center d-flex justify-content-start pt-3">
+          <img src="assets/img/table-avatar.jpg" alt="Profile" class="rounded-circle"> 
+          <span class="sidebar-username"> Garima </span>
         </div>
-        <!-- End Sidebar Menu -->
-        
-  
-        <!-- <li class="nav-item">
-          <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="on-hold-data.html">
-            <i class="bi bi-caret-right-fill"></i><span> On Hold Data </span>
-          </a>
-          <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
-            <li>
-              <a href="forms-elements.html">
-                <span>On Hold Form</span>
-              </a>
-            </li>
-            <li>
-              <a href="on-hold-data.html">
-                <span>On Hold Data </span>
-              </a>
-            </li>
-          </ul>
-        </li>-->
-      </ul>
-  
-    </aside>
-    <!-- =========== Sidebar =========== -->
+      </li>
+      <!-- End Username -->
 
+
+      <hr class="sidebar-hr"> 
+
+      <!-- Sidebar Menu -->
+      <div class="sidebar-menu">
+        <li class="nav-item">
+          <a class="nav-link active" href="master-data.html">
+            <i class="bi bi-caret-right-fill"></i>
+            <span>Master Data </span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link " href="verification.html">
+            <i class="bi bi-caret-right-fill"></i>
+            <span> Verification  </span>
+          </a>  
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="policies.html">
+            <i class="bi bi-caret-right-fill"></i>
+            <span> Policy  </span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="on-hold-data.html">
+            <i class="bi bi-caret-right-fill"></i>
+            <span> On Hold Data  </span>
+          </a>
+        </li>
+
+      </div>
+      <!-- End Sidebar Menu -->
+      
+
+      
+
+      <!-- <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="on-hold-data.html">
+          <i class="bi bi-caret-right-fill"></i><span> On Hold Data </span>
+        </a>
+        <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="forms-elements.html">
+              <span>On Hold Form</span>
+            </a>
+          </li>
+          <li>
+            <a href="on-hold-data.html">
+              <span>On Hold Data </span>
+            </a>
+          </li>
+        </ul>
+      </li>-->
+    </ul>
+
+  </aside>
+  <!-- =========== Sidebar =========== -->
 
 
   
 
   <main id="main" class="main">
 
-    <section class="section dashboard">
+    <!-- Section Flex User Details -->
+    <section class="section pt-1 pb-3">
+
+      <div class="flex-container">
+        <div>
+          <div class="text-start flex-single-column">
+            <div class="text-center d-flex justify-content-start">
+              <div class=""> 
+                <img src="assets/img/flex-avatar.png" alt="Profile" class="rounded">
+              </div>  
+              <div class=""> 
+                <div class="username">Ravi Sharma </div>  
+                <div class="">Web Developer</div>  
+              </div>
+            </div>
+        </div>
+        </div>
+        <div class="flex-column">
+          <div class="text-start flex-single-column">
+              <div class=" "> Unique Id: </div>  
+              <div class="sub-heading"> 7859 </div>
+          </div>
+        </div>
+        <div class="flex-column">
+          <div class="text-start flex-single-column  ">
+            <div class=" "> Email Address: </div>  
+            <div class="sub-heading"> web@stanvac.com</div>
+        </div>
+        </div>  
+        <div class="flex-column">
+          <div class="text-start flex-single-column">
+            <div class=" "> Department: </div>  
+            <div class="sub-heading"> Marketing </div>
+        </div>
+        </div>
+
+        <div class="flex-column">
+          <div class="text-start flex-single-column">
+            <div class=" "> Mobile Number: </div>  
+            <div class="sub-heading">+91-9402765302</div>
+        </div>
+        </div>
+      </div>
+      
+    </section>
+    <!-- Sectin Flex User Details  -->
+
+    <!-- Accordian Section -->
+    <section class="section">
       <div class="row">
 
-         
-        <!-- Default Accordion -->
+        <!-- Employee Accordion -->
         <div class="accordion" id="accordionExample">
           
-
-          <div class="accordion-item stanvac-mb-10">
+          <!-- 1 Personal Information-->
+          <div class="accordion-item ">
             <h2 class="accordion-header" id="headingOne">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseTwo">
-                <b>Personal Information  </b>
+                <span class="accordian_title">Personal Information</span>
               </button>
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
               <div class="accordion-body">
                 <div class="row">
-                  <div class="col-4">
-                     <!-- Default Table -->
+                  <div class="col-xl-4 col-lg-4 col-4">
                       <table class="table">
                         
                         <tbody>
@@ -252,10 +299,10 @@
                           </tr>
                         </tbody>
                       </table>
-                      <!-- End Default Table Example -->
+                      
                   </div>
                   <div class="col-4">
-                    <!-- Default Table -->
+                    
                     <table class="table">
                         
                       <tbody>
@@ -282,109 +329,118 @@
                         </tr>
                       </tbody>
                     </table>
-                    <!-- End Default Table Example -->
+                    
                   </div>
 
 
                   <div class="col-4">
-                     <h6> Present Address  </h6>
+                     <span class="employee-table-sub-heading"> Present Address  </span>
+                     <br>
                      <span> Address: </span> <br> 
                      <span>Plot no. 551, Sector - 37. Pace City-II, Gurgaon</span> 
                      <span>(Haryana) 122001, India </span>
                      <br><br> 
-                     <h6> Permanant Address  </h6>
+                     <span class="employee-table-sub-heading"> Permanant Address  </span>
+                     <br>
                      <span> Address: </span> <br> 
                      <span>Plot no. 551, Sector - 37. Pace City-II, Gurgaon</span> 
                      <span>(Haryana) 122001, India </span>
                   </div>
 
                 </div>
-                
-
+              
 
                 <hr> 
                 
                 
                 <!-- Family Information  -->
-                
                 <div class="row">
-                  <div class="col-4">
-                      <h5> Family Information </h5>
-                      <!-- Default Table -->
-                      <table class="table">
-                        
-                        <tbody>
-                          <tr>  
-                            <td> Father Name : Amit Verma | 01-Jan-1940 | Govr. </td>
-                          </tr>
-                          <tr>
-                            <td> Mother Name : Babita Verma | 01-Jan-1945 | Govr. </td>
-                          </tr>
-                          <tr>
-                            <td> Wife Name : Rima Verma | 01-Jan-1974 | Govr.   </td>
-                          </tr>
-
-                        </tbody>
-                      </table>
-                      <!-- End Default Table Example -->
-                  </div>
-                  <div class="col-4">
-                     <!-- Default Table -->
-                     <table class="table pt-lg-6">
-                        
-                      <tbody>
-                        <tr>  
-                          <td> Children Name : Vivek Verma | 01-Jan-1990 | Other </td>
-                        </tr>
-                        <tr>
-                          <td> Children Name : Shankar Verma | 01-Jan-1995 | Other </td>
-                        </tr>
-                        <tr>
-                          <td> Children Name : Vivel Verma | 01-Jan-1999 | Other   </td>
-                        </tr>
-                        
-                      </tbody>
-                    </table>
-                    <!-- End Default Table Example -->
-
-                  </div>
-
-                  <div class="col-4">
-                    <h5> Emergency Contact Details </h5>
-                    <h6>   </h6>
-                    <!-- Default Table -->
-                    <table class="table">
-                      <tbody>
-                        <tr>  
-                          <td> Name: Amit Verma | 9876-654-321 </td>
-                        </tr>
-                        <tr>
-                          <td>Name: Amit Verma | 9876-654-321 </td>
-                        </tr>
-                        
-                      </tbody>
-                    </table>
-                    <!-- End Default Table Example -->
-                    </div>
+                    
+                        <div class="col-xl-8 col-lg-8 col-md-6 col-12">
+                          <div class="row">
+                            <div class="col-12">
+                              <span class="employee-table-sub-heading p-lg-2"> Family Information </span>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-6">
+                              <table class="table">
+                          
+                                <tbody>
+                                  <tr>  
+                                    <td> Father Name : Amit Verma | 01-Jan-1940 | Govr. </td>
+                                  </tr>
+                                  <tr>
+                                    <td> Mother Name : Babita Verma | 01-Jan-1945 | Govr. </td>
+                                  </tr>
+                                  <tr>
+                                    <td> Wife Name : Rima Verma | 01-Jan-1974 | Govr.   </td>
+                                  </tr>
+        
+                                </tbody>
+                              </table>
+                            </div>
+                            <div class="col-6">
+                              <table class="table pt-lg-6">
+                          
+                                <tbody>
+                                  <tr>  
+                                    <td> Children Name : Vivek Verma | 01-Jan-1990 | Other </td>
+                                  </tr>
+                                  <tr>
+                                    <td> Children Name : Shankar Verma | 01-Jan-1995 | Other </td>
+                                  </tr>
+                                  <tr>
+                                    <td> Children Name : Vivel Verma | 01-Jan-1999 | Other   </td>
+                                  </tr>
+                                  
+                                </tbody>
+                              </table>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-12">
+                          <span class="employee-table-sub-heading p-lg-2"> Emergency Contact Details </span>
+                          <!-- Default Table -->
+                          <table class="table">
+                            <tbody>
+                              <tr>  
+                                <td> Name: Amit Verma | 9876-654-321 </td>
+                              </tr>
+                              <tr>
+                                <td>Name: Amit Verma | 9876-654-321 </td>
+                              </tr>
+                              
+                            </tbody>
+                          </table>
+                          <!-- End Default Table Example -->
+                        </div>
+             
                 </div>
+                <!-- End Family Information -->
+
+
+
+
 
               </div>
             </div>
           </div>
+          <!-- End Personal Information -->
 
           
-
-          <div class="accordion-item stanvac-mb-10">
+          <!-- 2 Education Detail  -->
+          <div class="accordion-item">
             <h2 class="accordion-header" id="headingTwo">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                <b> Education Detail </b>
+                <span class="accordian_title">Education Detail</span>
               </button>
             </h2>
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
               <div class="accordion-body">
                 <div class="row">
                   <div class="col-lg-4 col-md-12 col-sm-12">
-                    <h6> <b> High School </b> </h6>
+                    <span class="employee-table-sub-heading p-lg-2"> High School </span>
                     <!-- Default Table -->
                     <table class="table">
                         
@@ -411,7 +467,8 @@
                   </div>
 
                   <div class="col-lg-4 col-md-12 col-sm-12">
-                    <h6> <b> Intermediate </b> </h6>
+
+                    <span class="employee-table-sub-heading p-lg-2"> Intermediate </span>
                     <!-- Default Table -->
                     <table class="table">
                         
@@ -438,7 +495,7 @@
                   </div>
 
                   <div class="col-lg-4 col-md-12 col-sm-12">
-                    <h6> <b> Diploma  </b> </h6>
+                    <span class="employee-table-sub-heading p-lg-2"> Diploma </span>
                     <!-- Default Table -->
                     <table class="table">
                         
@@ -470,7 +527,7 @@
                 <hr> 
                 <div class="row">
                   <div class="col-lg-4 col-md-12 col-sm-12">
-                    <h6> <b> Degree </b> </h6>
+                    <span class="employee-table-sub-heading p-lg-2"> Degree </span>
                     <!-- Default Table -->
                     <table class="table">
                         
@@ -506,7 +563,7 @@
                   </div>
 
                   <div class="col-lg-4 col-md-12 col-sm-12">
-                    <h6> <b> Post Graduate  </b> </h6>
+                    <span class="employee-table-sub-heading p-lg-2"> Post Graduate </span>
                     <!-- Default Table -->
                     <table class="table">
                         
@@ -542,7 +599,8 @@
                   </div>
 
                   <div class="col-lg-4 col-md-12 col-sm-12">
-                    <h6> <b> Post Graduate  </b> </h6>
+                    <h6> <b>  </b> </h6>
+                    <span class="employee-table-sub-heading p-lg-2"> Post Graduate  </span>
                     <!-- Default Table -->
                     <table class="table">
                         
@@ -582,12 +640,13 @@
               </div>
             </div>
           </div>
+          <!-- End Education Details -->
           
-
-          <div class="accordion-item stanvac-mb-10">
+          <!-- 3 Work Experience -->
+          <div class="accordion-item">
             <h2 class="accordion-header" id="headingFour">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                <b> Work Experience  </b>
+                <span class="accordian_title">Work Experience </span>
               </button>
             </h2>
             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
@@ -668,63 +727,67 @@
               </div>
             </div>
           </div>
+          <!-- End Work Experience -->
 
-
-          <div class="accordion-item stanvac-mb-10">
+          <!-- 4 Other Details -->
+          <div class="accordion-item">
             <h2 class="accordion-header" id="headingFour">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
-                <b> Other Details </b>  
+                <span class="accordian_title">Other Details</span>  
               </button>
             </h2>
             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
               <div class="accordion-body">
                 <div class="row">
-                  <div class="col-lg-4">
-                    <h6> ICICI Account Detail/Other Bank Detail </h6>
-                     <!-- Default Table -->
-                     <table class="table">
+                  <div class="col-lg-8 col-md-6 col-12">
+                    <span class="employee-table-sub-heading p-lg-2"> ICICI Account Detail/Other Bank Detail  </span>
+                    <div class="row">
+                      
+                      <div class="col-lg-6">
+                        <table class="table">
                         
-                      <tbody>
-                        <tr>  
-                          <td> Name : Ravi Sharma  </td>
-                        </tr>
-                        <tr>
-                          <td> Bank Name : ICICI Bank  </td>
-                        </tr>
-                        <tr>
-                          <td> Account Number : 0296746687   </td>
-                        </tr>
-
-                      </tbody>
-                    </table>
+                          <tbody>
+                            <tr>  
+                              <td> Name : Ravi Sharma  </td>
+                            </tr>
+                            <tr>
+                              <td> Bank Name : ICICI Bank  </td>
+                            </tr>
+                            <tr>
+                              <td> Account Number : 0296746687   </td>
+                            </tr>
+    
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="col-lg-6">
+                        <table class="table pt-5">
+                       
+                          <tbody>
+                            <tr>  
+                              <td> Branch Name & Address : New Delhi  </td>
+                            </tr>
+                            <tr>
+                              <td> IFSC Code : ICIC0000546 </td>
+                            </tr>
+                            <tr>
+                              <td> Cancel Cheque Attachment : View   </td>
+                            </tr>
+     
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                    
+                     <!-- Default Table -->
+                     
                     <!-- End Default Table Example -->
                   </div>
 
 
                   <div class="col-lg-4">
+                    <span class="employee-table-sub-heading p-lg-2"> Health Data </span>
                     
-                    <!-- Default Table -->
-                    <table class="table pt-5">
-                       
-                     <tbody>
-                       <tr>  
-                         <td> Branch Name & Address : New Delhi  </td>
-                       </tr>
-                       <tr>
-                         <td> IFSC Code : ICIC0000546 </td>
-                       </tr>
-                       <tr>
-                         <td> Cancel Cheque Attachment : View   </td>
-                       </tr>
-
-                     </tbody>
-                   </table>
-                   <!-- End Default Table Example -->
-                  </div>
-
-
-                 <div class="col-lg-4">
-                    <h6> Health Data  </h6> 
                     <!-- Default Table -->
                     <table class="table">
                       
@@ -741,18 +804,20 @@
 
                     </tbody>
                   </table>
-                    <!-- End Default Table Example -->
-                 </div>
+                    
+                  </div>
 
                 </div>
               </div>
             </div>
           </div>
+          <!-- End Other Details  -->
 
 
-        </div><!-- End Default Accordion Example -->
+        </div><!-- End Employee Example -->
       </div>
     </section>
+    <!-- Accordian Section -->
 
   </main><!-- End #main -->
 

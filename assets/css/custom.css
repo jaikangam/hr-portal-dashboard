@@ -11,14 +11,29 @@ body{
     font-size: 14px;
     background-color: #fff;
 }
+.back-to-top {
+    background: #2387c8;
+}
+.back-to-top:hover{
+    background: #2387c8;
+}
 
 
+/* ========== Fonts ========== */
 .stanvac-font{
     font-size: 15px;
 }
 .heading-font{
     font-size: 25px;
 }
+.text-stanvac-blue{
+    color: #2387c8;
+}
+.text-stanvac-orange{
+    color: #ef6500;
+}
+
+/* ========== End Fonts ========== */
 
 
 
@@ -166,6 +181,125 @@ th{
 
 
 
+/* ========== Master Data Flex Container ========== */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 50px;
+
+}
+
+.flex-container > div  {
+    background-color: none ;
+    width: 20%;
+    margin: 0px;
+    border: solid 1px rgb(186, 173, 173);
+    text-align: center;
+    border-radius: 1px;
+}
+.flex-single-column{
+    padding: 15px 15px;
+}
+
+.flex-single-column img{
+    width: 50px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: solid 1px rgb(184, 180, 180);
+}
+.flex-single-column .username{
+    font-size: 17px;
+    font-weight: 600;
+}
+.flex-single-column .sub-heading{
+    font-weight: 600;
+}
+/* ========== End Master Data Flex Container ========== */
+
+
+
+
+
+/* ========== Acccordian ========== */
+.accordion {
+    background-color: none !important;
+    --bs-accordion-color: #000;
+    --bs-accordion-bg: #fff;
+    --bs-accordion-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out,border-radius 0.15s ease;
+    --bs-accordion-border-color: var(--bs-border-color);
+    --bs-accordion-border-width: 1px;
+    --bs-accordion-border-radius: 0.375rem;
+    --bs-accordion-inner-border-radius: calc(0.375rem - 1px);
+    --bs-accordion-btn-padding-x: 1.25rem;
+    --bs-accordion-btn-padding-y: 1rem;
+    --bs-accordion-btn-color: var(--bs-body-color);
+    --bs-accordion-btn-bg: var(--bs-accordion-bg);
+    --bs-accordion-btn-icon: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='var%28--bs-body-color%29'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e);
+    --bs-accordion-btn-icon-width: 1.25rem;
+    --bs-accordion-btn-icon-transform: rotate(-180deg);
+    --bs-accordion-btn-icon-transition: transform 0.2s ease-in-out;
+    --bs-accordion-btn-active-icon: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%230c63e4'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e);
+    --bs-accordion-btn-focus-border-color: #86b7fe;
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25remrgba(13, 110, 253, 0.25);
+    --bs-accordion-body-padding-x: 1.25rem;
+    --bs-accordion-body-padding-y: 1rem;
+    --bs-accordion-active-color: #0c63e4;
+    --bs-accordion-active-bg: #e7f1ff;
+}
+.accordion-item {
+    border: solid 1px rgb(186, 173, 173);
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: none !important;
+}
+
+.accordion-header{
+    background-color: #fff !important;
+    border-radius: 10px;
+    border: green;
+    z-index: 100;
+    border-top: none;
+}
+.accordian_title {
+    text-decoration: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid #2387c8;
+    font-size: 17px;
+    
+}
+.accordion-button{
+    background-color: none;
+    border-radius: 5px;
+    padding: 25px 30px;
+    border-top: solid 1px  rgb(186, 173, 173);
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #fff;
+    border-top: solid 1px rgb(186, 173, 173);
+}
+.accordion-item:first-of-type .accordion-button {
+    border-top-left-radius: var(--bs-accordion-inner-border-radius);
+    border-top-right-radius: 15px;
+    background-color: #fff;
+    border-top: none;
+    border-bottom: none;
+}
+.accordion-item:last-of-type .accordion-button.collapsed {
+    border-bottom-right-radius: var(--bs-accordion-inner-border-radius);
+    border-bottom-left-radius: var(--bs-accordion-inner-border-radius);
+    background-color: #fff;
+    margin-top: 10px;
+}
+.employee-table-sub-heading{
+    font-size: 17px;
+    padding-bottom: 15px;
+    font-weight: 600;
+}
+
+/* ========== End Accordina ========== */
 
 
 
@@ -184,18 +318,6 @@ th{
 
 
 
-
-
-
-
-
-
-.back-to-top {
-    background: #2387c8;
-}
-.back-to-top:hover{
-    background: #2387c8;
-}
 
 .pr-1{
     padding-right: 5px;
@@ -246,12 +368,6 @@ th{
 .placeholder-rtl{
     text-align: right;
 }
-.text-stanvac-blue{
-    color: #2387c8;
-}
-.text-stanvac-orange{
-    color: #ef6500;
-}
 
 
 
@@ -259,15 +375,10 @@ th{
 
 
 /* Navbar code  */
-/* Navbar code  */
-/* Navbar code  */
-/* Navbar code  */
 
 
-.stanvac-mb-10 {
-    margin-bottom: 10px;
-    border-radius: 5px;
-}
+
+
 
 .header-nav .nav-icon {
     font-size: 22px;
@@ -419,7 +530,14 @@ th{
         padding-top: 10px;
         padding-bottom: 10px;
     }
-    
+    .flex-container > div  {
+        background-color: none ;
+        width: 50% !important;
+        margin: 0px;
+        border: solid 1px rgb(186, 173, 173);
+        text-align: center;
+        border-radius: 1px;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */

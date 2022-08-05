@@ -46,7 +46,7 @@
 
 
     <div class="">
-      <button class="nav-title"> Verification </button>  
+      <button class="nav-title"> Pre-Verification </button>  
     </div>
 
 
@@ -208,113 +208,52 @@
   <main id="main" class="main">
 
 
-    <!-- Section Data 4 Row -->
+    <!-- Section Flex User Details -->
     <section class="section pt-1 pb-3">
-      
-      <div class="row">
-        
-        <!-- Verification Pending  -->
-        <div class="col-xxl-3 col-lg-3 col-md-6 col-sm-6 col-12 ">
-          <div class="stanvac_card ">
-            <div class="stanvac_card_body">
-              <div class="text-center d-flex justify-content-between pt-3">
-                <div class=" "> Verification Pending </div>  
-                <div class="stanvac-card-number"> 52 </div>
+
+      <div class="flex-container">
+        <div>
+          <div class="text-start flex-single-column flex-fill">
+            <div class="text-center d-flex justify-content-start">
+              <div class=""> 
+                <img src="assets/img/flex-avatar.png" alt="Profile" class="rounded">
+              </div>  
+              <div class=""> 
+                <div class="username">Ravi Sharma </div>  
+                <div class="">Web Developer</div>  
               </div>
             </div>
+        </div>
+        </div>
+        <div class="flex-column">
+          <div class="text-start flex-single-column">
+              <div class=" "> Unique Id: </div>  
+              <div class="sub-heading"> 7859 </div>
           </div>
         </div>
-        <!-- End Verification Pending -->
-
-        <!-- Unfilled Form  -->
-        <div class="col-xxl-3 col-lg-3 col-md-6 col-sm-6 col-12 ">
-          <div class="stanvac_card ">
-            <div class="stanvac_card_body">
-              <div class="text-center d-flex justify-content-between pt-3">
-                <div class=" "> Unfilled Form  </div>  
-                <div class="stanvac-card-number"> 13 </div>
-              </div>
-            </div>
-          </div>
+        <div class="flex-column">
+          <div class="text-start flex-single-column  ">
+            <div class=" "> Email Address: </div>  
+            <div class="sub-heading"> web@stanvac.com</div>
         </div>
-        <!-- End Unfilled Form -->
-
-
-        <!-- Empty -->
-        <div class="col-xxl-3 col-lg-3 col-md-6 col-sm-6 col-12 ">
-          
+        </div>  
+        <div class="flex-column">
+          <div class="text-start flex-single-column">
+            <div class=" "> Department: </div>  
+            <div class="sub-heading"> Marketing </div>
         </div>
-        <!-- End Empty-->
-
-
-        <!-- Add Button Row -->
-        <div class="col-xxl-3 col-lg-3 col-md-6 col-sm-6 col-12 ">
-          <div class="d-flex flex-row-reverse">
-            <button type="button" class=" btn  btn-stanvac-orange verification-btn px-4" data-bs-toggle="modal" data-bs-target="#ExtralargeModal"> + Add </button>
-          </div>
         </div>
-        <!-- End Button Row -->
 
-
-        <!-- Modal Verification Form -->
-        <div class="modal fade" id="ExtralargeModal" tabindex="-1">
-          <div class="modal-dialog modal-lg">
-            <div class="modal-content pb-4">
-              <div class="modal-header px-4">
-                <h5 class="modal-title"> FORM </h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body px-4">
-          
-                <!-- Vertical Form -->
-                <form class="row g-3">
-                    <div class="col-lg-4">
-                      <label for="inputNanme4" class="form-label"> Name</label>
-                      <input type="text" class="form-control" id="inputNanme4">
-                    </div>
-                    <div class="col-lg-4">
-                      <label for="inputEmail4" class="form-label">Email</label>
-                      <input type="email" class="form-control" id="inputEmail4">
-                    </div>
-                    <div class="col-lg-4">
-                      <label for="inputNanme4" class="form-label"> Mobile Number</label>
-                      <input type="text" class="form-control" id="inputNanme4">
-                    </div>
-                    <div class="col-lg-4">
-                      <label for="inputNanme4" class="form-label"> Company </label>
-                      <input type="text" class="form-control" id="inputNanme4">
-                    </div>
-                    <div class="col-lg-4">
-                      <label for="inputNanme4" class="form-label"> Designation </label>
-                      <input type="text" class="form-control" id="inputNanme4">
-                    </div>
-                    <div class="col-lg-4">
-                      <label for="inputNanme4" class="form-label"> Refer Name </label>
-                      <input type="text" class="form-control" id="inputNanme4">
-                    </div>
-                    <div class="col-lg-6">
-                      <input type="text" class="form-control placeholder-rtl text-stanvac-blue" id="inputNanme4" placeholder="Generate Password">
-                    </div>
-                    <div class="col-lg-6 text-stanvac-blue">
-                      <input type="text" class="form-control placeholder-rtl" id="inputNanme4" placeholder="Generate Link">
-                    </div>
-                    <div class="text-center pt-2">
-                      <span class="pr-2"> <button type="submit" class="btn border stanvac-btn-border-orange text-stanvac-orange px-5"> Save </button> </span>
-                      <span> <button type="submit" class="btn border stanvac-btn-border-blue text-stanvac-blue px-5"> Share  </button> </span>
-                    </div>
-                    
-                </form><!-- Vertical Form -->
-
-              </div>
-              
-            </div>
-          </div>
+        <div class="flex-column">
+          <div class="text-start flex-single-column">
+            <div class=" "> Mobile Number: </div>  
+            <div class="sub-heading">+91-9402765302</div>
         </div>
-        <!-- End Modal Verification Form -->
+        </div>
       </div>
       
     </section>
-    <!-- Sectin End Data 4 Row  -->
+    <!-- Sectin Flex User Details  -->
 
 
     <!-- Section Employee List Table -->
@@ -366,7 +305,7 @@
                     <td>27-Feb-2022</td>
                     <td>UI Designer</td>
                     <td> 
-                      <span class="pr-2"> <a href="dashboard.html"><i class="bi bi-eye px-1"></i></a> </span> 
+                      <span class="pr-2"><i class="bi bi-eye px-1"></i> </span> 
                       <span> <i class="bi bi-pencil-square px-1"></i></span>
                     </td>
                   </tr>
@@ -391,7 +330,7 @@
                     <td>27-Feb-2022</td>
                     <td>UI Designer</td>
                     <td> 
-                      <span class="pr-2"> <a href="dashboard.html"><i class="bi bi-eye px-1"></i></a> </span> 
+                      <span class="pr-2"><i class="bi bi-eye px-1"></i> </span> 
                       <span> <i class="bi bi-pencil-square px-1"></i></span>
                     </td>
                   </tr>
@@ -414,7 +353,7 @@
                     <td>27-Feb-2022</td>
                     <td>UI Designer</td>
                   <td> 
-                      <span class="pr-2"> <a href="dashboard.html"><i class="bi bi-eye px-1"></i></a> </span> 
+                      <span class="pr-2"><i class="bi bi-eye px-1"></i> </span> 
                       <span> <i class="bi bi-pencil-square px-1"></i></span>
                     </td>
                   </tr>
@@ -437,7 +376,7 @@
                     <td>27-Feb-2022</td>
                     <td>UI Designer</td>
                   <td> 
-                      <span class="pr-2"> <a href="dashboard.html"><i class="bi bi-eye px-1"></i></a> </span> 
+                      <span class="pr-2"><i class="bi bi-eye px-1"></i> </span> 
                       <span> <i class="bi bi-pencil-square px-1"></i></span>
                     </td>
                   </tr>
@@ -460,7 +399,7 @@
                     <td>27-Feb-2022</td>
                     <td>UI Designer</td>
                   <td> 
-                      <span class="pr-2"> <a href="dashboard.html"><i class="bi bi-eye px-1"></i></a> </span> 
+                      <span class="pr-2"><i class="bi bi-eye px-1"></i> </span> 
                       <span> <i class="bi bi-pencil-square px-1"></i></span>
                     </td>
                   </tr>
@@ -483,7 +422,7 @@
                     <td>27-Feb-2022</td>
                     <td>UI Designer</td>
                   <td> 
-                      <span class="pr-2"> <a href="dashboard.html"><i class="bi bi-eye px-1"></i></a> </span> 
+                      <span class="pr-2"><i class="bi bi-eye px-1"></i> </span> 
                       <span> <i class="bi bi-pencil-square px-1"></i></span>
                     </td>
                   </tr>
@@ -506,7 +445,7 @@
                     <td>27-Feb-2022</td>
                     <td>UI Designer</td>
                   <td> 
-                      <span class="pr-2"> <a href="dashboard.html"><i class="bi bi-eye px-1"></i></a> </span> 
+                      <span class="pr-2"><i class="bi bi-eye px-1"></i> </span> 
                       <span> <i class="bi bi-pencil-square px-1"></i></span>
                     </td>
                   </tr>
