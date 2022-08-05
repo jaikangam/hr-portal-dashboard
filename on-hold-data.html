@@ -83,7 +83,7 @@
           <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
             <li class="dropdown-header">
               <h6>Username </h6>
-              <span>Head HR </span>
+              <span> Role </span>
             </li>
             <li>
               <hr class="dropdown-divider">
@@ -127,50 +127,58 @@
 
 
 
-
-
-
-  <!-- ======= Sidebar ======= -->
+  <!-- ========== Sidebar ========== -->
   <aside id="sidebar" class="sidebar">
 
     <ul class="sidebar-nav" id="sidebar-nav">
-
-      <li class="nav-item">
-        <a class="nav-link sidebar-profile" href="#" >
-          <i class="bi bi-person"></i>
-          <span>Garima </span>
-        </a>
-      </li><!-- End Dashboard Nav -->
-
-      <hr class="text-white"> 
-
-      <li class="nav-item">
-        <a class="nav-link " href="master-data.html">
-          
-          <i class="bi bi-caret-right-fill"></i>
-          <span>Master Data  </span>
-        </a>
-      </li><!-- End Master Data  Page Nav -->
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="verification.html">
-          <i class="bi bi-caret-right-fill"></i>
-          <span> Verification  </span>
-        </a>
-        
+      
+      <!-- Username -->
+      <li class="nav-item px-3">
+        <div class="text-center d-flex justify-content-start pt-3">
+          <img src="assets/img/table-avatar.jpg" alt="Profile" class="rounded-circle"> 
+          <span class="sidebar-username"> Garima </span>
+        </div>
       </li>
+      <!-- End Username -->
 
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="policies.html">
-          <i class="bi bi-caret-right-fill"></i>
-          <span> Policy  </span>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="on-hold-data.html">
-          <i class="bi bi-caret-right-fill"></i>
-          <span> On Hold Data  </span>
-        </a>
-      </li>
+
+      <hr class="sidebar-hr"> 
+
+      <!-- Sidebar Menu -->
+      <div class="sidebar-menu">
+        <li class="nav-item">
+          <a class="nav-link " href="master-data.html">
+            <i class="bi bi-caret-right-fill"></i>
+            <span>Master Data  </span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link " href="verification.html">
+            <i class="bi bi-caret-right-fill"></i>
+            <span> Verification  </span>
+          </a>  
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link " href="policies.html">
+            <i class="bi bi-caret-right-fill"></i>
+            <span> Policy  </span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link active" href="on-hold-data.html">
+            <i class="bi bi-caret-right-fill"></i>
+            <span> On Hold Data  </span>
+          </a>
+        </li>
+
+      </div>
+      <!-- End Sidebar Menu -->
+      
+
+      
 
       <!-- <li class="nav-item">
         <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="on-hold-data.html">
@@ -191,295 +199,287 @@
       </li>-->
     </ul>
 
-  </aside><!-- End Sidebar-->
-
-
+  </aside>
+  <!-- =========== Sidebar =========== -->
 
 
 
   <!-- Start main -->
   <main id="main" class="main">
-    
-    <!-- Section  -->
-    <section class="section">
 
-      <div class="row pt-3 pb-5 pr-3">
-      
-          <div class="scrollme employee-table">
-
-            <!-- Row Table Heading -->
-            <div class="row px-2 pt-4 pb-3"> 
-              <div class="col-lg-6 col-md-6 col-sm-6 col-6">
-                <h6 class="table-heading"> EMPLOYEE LIST  </h6>
-              </div>
-              <div class="col-lg-6 col-md-6 col-sm-6 col-6">
-                <div class="d-flex flex-row-reverse">
-                  <button type="button" class=" btn  btn-stanvac-orange verification-btn px-4" data-bs-toggle="modal" data-bs-target="#ExtralargeModal" > + Add </button>
+    <!-- Section Employee List Table -->
+    <section class="section pb-3 pt-3">
+      <div class="row">
+        <div class="col-12">
+          <div class="stanvac_card overflow-auto">
+            <div class="stanvac_card_body">
+              <!-- Row Table Heading -->
+              <div class="row px-2 pt-4 pb-3"> 
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                  <h6 class="table-heading"> EMPLOYEE LIST  </h6>
                 </div>
-              </div>
-            </div>
-            <!-- End Row Table Heading -->
-
-            <!-- On Hold Data Modal -->
-            <div class="modal fade" id="ExtralargeModal" tabindex="-1">
-              <div class="modal-dialog modal-lg">
-                <div class="modal-content pb-3">
-                  <div class="modal-header">
-                    <h5 class="modal-title">ON HOLD FORM</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                  <div class="d-flex flex-row-reverse">
+                    <button type="button" class=" btn  btn-stanvac-orange verification-btn px-4" data-bs-toggle="modal" data-bs-target="#ExtralargeModal" > + Add </button>
                   </div>
+                </div>
+              </div>
+              <!-- End Row Table Heading -->
 
-                  <div class="modal-body">
-              
-                    <!-- Vertical Form -->
-                    <form class="row g-3">
-                        <div class="col-lg-4">
-                          <label for="inputNanme4" class="form-label"> Name</label>
-                          <input type="text" class="form-control" id="inputNanme4">
-                        </div>
-                        <div class="col-lg-4">
-                          <label for="inputEmail4" class="form-label">Email</label>
-                          <input type="email" class="form-control" id="inputEmail4">
-                        </div>
-                        <div class="col-lg-4">
-                          <label for="inputNanme4" class="form-label"> Mobile Number</label>
-                          <input type="text" class="form-control" id="inputNanme4">
-                        </div>
-                        <div class="col-lg-4">
-                          <label for="inputNanme4" class="form-label"> Role</label>
-                          <input type="text" class="form-control" id="inputNanme4">
-                        </div>
-                        <div class="col-lg-4">
-                          <label for="inputNanme4" class="form-label"> Company </label>
-                          <input type="text" class="form-control" id="inputNanme4">
-                        </div>
-                        <div class="col-lg-4">
-                          <label for="inputNanme4" class="form-label"> Upload Resume </label>
-                          <input class="form-control" type="file" id="formFile">
-                        </div>
-                        <div class="text-center pt-3">
-                          <button type="submit" class="btn border stanvac-btn-border-orange text-stanvac-orange  px-5"> Save </button>
-                        </div>
-                        
-                    </form><!-- Vertical Form -->
+              <!-- On Hold Data Modal -->
+              <div class="modal fade" id="ExtralargeModal" tabindex="-1">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content pb-3">
+                    <div class="modal-header px-4">
+                      <h5 class="modal-title">ON HOLD FORM</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
 
+                    <div class="modal-body px-">
+                
+                      <!-- Vertical Form -->
+                      <form class="row g-3">
+                          <div class="col-lg-4">
+                            <label for="inputNanme4" class="form-label"> Name</label>
+                            <input type="text" class="form-control" id="inputNanme4">
+                          </div>
+                          <div class="col-lg-4">
+                            <label for="inputEmail4" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4">
+                          </div>
+                          <div class="col-lg-4">
+                            <label for="inputNanme4" class="form-label"> Mobile Number</label>
+                            <input type="text" class="form-control" id="inputNanme4">
+                          </div>
+                          <div class="col-lg-4">
+                            <label for="inputNanme4" class="form-label"> Role</label>
+                            <input type="text" class="form-control" id="inputNanme4">
+                          </div>
+                          <div class="col-lg-4">
+                            <label for="inputNanme4" class="form-label"> Company </label>
+                            <input type="text" class="form-control" id="inputNanme4">
+                          </div>
+                          <div class="col-lg-4">
+                            <label for="inputNanme4" class="form-label"> Upload Resume </label>
+                            <input class="form-control" type="file" id="formFile">
+                          </div>
+                          <div class="text-center pt-3">
+                            <button type="submit" class="btn border stanvac-btn-border-orange text-stanvac-orange  px-5"> Save </button>
+                          </div>
+                          
+                      </form><!-- Vertical Form -->
+
+                    </div>
+                    
                   </div>
-                  
                 </div>
               </div>
-            </div>
-            <!-- End On Hold Data Modal -->
-            
-            <!-- Default Table -->
-            <table class="table stanvac-table align-self-center">
-              <thead>
-                <tr>
-                  <th scope="col"><input type="checkbox" class="form-check-input" id="exampleCheck1"></th>
-                  <th class="stanvac-table-th" scope="col">NAME</th>
-                  <th scope="col">PHONE</th>
-                  <th scope="col">ROLE </th>
-                  <th scope="col">DATE</th>
-                  <th scope="col">COMPANY</th>
-                  <th scope="col">RESUME</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th class="align-self-center"><input type="checkbox" class="form-check-input" id="exampleCheck1"></th>
-                  <td>
+              <!-- End On Hold Data Modal -->
 
-                    <div class="d-flex">
-                      <div class="table-avatar">
-                        <img src="assets/img/table-avatar.jpg" alt="Profile" class="rounded-circle">
+              <!-- Employee Table -->
+              <table class="table stanvac-table align-self-center">
+                <thead>
+                  <tr>
+                    <th scope="col"><input type="checkbox" class="form-check-input" id="exampleCheck1"></th>
+                    <th class="stanvac-table-th" scope="col">NAME</th>
+                    <th scope="col">PHONE</th>
+                    <th scope="col">ROLE </th>
+                    <th scope="col">DATE</th>
+                    <th scope="col">COMPANY</th>
+                    <th scope="col">RESUME</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th class="align-self-center"><input type="checkbox" class="form-check-input" id="exampleCheck1"></th>
+                    <td>
+  
+                      <div class="d-flex">
+                        <div class="table-avatar">
+                          <img src="assets/img/table-avatar.jpg" alt="Profile" class="rounded-circle">
+                        </div>
+                        <div class="div">
+                          Rohit Kumar <br> <span class="employee-table-user-email"> webdesigning@stanvac.com </span> 
+                        </div>
                       </div>
-                      <div class="div">
-                        Rohit Kumar <br> <span class="employee-table-user-email"> webdesigning@stanvac.com </span> 
-                      </div>
-                    </div>
-
-                  </td>
-                  <td>+91-8585909586</td>
-                  <td>Android Developer </td>
-                  <td>27-Feb-2022</td>
-                  <td>Stanvac Chemicals</td>
-                  <td> <span class="pr-2"><i class="bi bi-eye px-1"></i> </span> <span> <i class="bi bi-download"></i></i> </span></td>
-                </tr>
-
-              
-                <tr>
-                  <th><input type="checkbox" class="form-check-input" id="exampleCheck1"></th>
-                  <td>
-                    
-                    <div class="d-flex">
-                      <div class="table-avatar">
-                        <img src="assets/img/table-avatar.jpg" alt="Profile" class="rounded-circle">
-                      </div>
-                      <div class="div">
-                        Rohit Kumar <br> <span class="employee-table-user-email"> webdesigning@stanvac.com </span> 
-                      </div>
-                    </div>
-
-                  </td>
-                  <td>+91-8585909586</td>
-                  <td>IOS Developer </td>
-                  <td>27-Feb-2022</td>
-                  <td>Stanvac Chemicals</td>
-                  <td> <span class="pr-2"><i class="bi bi-eye px-1"></i> </span> <span> <i class="bi bi-download"></i></i> </span></td>
-                </tr>
-                <tr>
-                  <th><input type="checkbox" class="form-check-input" id="exampleCheck1"></th>
-                  <td>
-                    
-                    <div class="d-flex">
-                      <div class="table-avatar">
-                        <img src="assets/img/table-avatar.jpg" alt="Profile" class="rounded-circle">
-                      </div>
-                      <div class="div">
-                        Rohit Kumar <br> <span class="employee-table-user-email"> webdesigning@stanvac.com </span> 
-                      </div>
-                    </div>
-
-                  </td>
-                  <td>+91-8585909586</td>
-                  <td>Team Leader </td>
-                  <td>27-Feb-2022</td>
-                  <td>Stanvac Chemicals</td>
-                 <td> <span class="pr-2"><i class="bi bi-eye px-1"></i> </span> <span> <i class="bi bi-download"></i></i> </span></td>
-                </tr>
-                <tr>
-                  <th><input type="checkbox" class="form-check-input" id="exampleCheck1"></th>
-                  <td>
-                    
-                    <div class="d-flex">
-                      <div class="table-avatar">
-                        <img src="assets/img/table-avatar.jpg" alt="Profile" class="rounded-circle">
-                      </div>
-                      <div class="div">
-                        Rohit Kumar <br> <span class="employee-table-user-email"> webdesigning@stanvac.com </span> 
-                      </div>
-                    </div>
-
-                  </td>
-                  <td>+91-8585909586</td>
-                  <td> Web Developers </td>
-                  <td>27-Feb-2022</td>
-                  <td>Stanvac Chemicals</td>
-                 <td> <span class="pr-2"><i class="bi bi-eye px-1"></i> </span> <span> <i class="bi bi-download"></i></i> </span></td>
-                </tr>
-                <tr>
-                  <th><input type="checkbox" class="form-check-input" id="exampleCheck1"></th>
-                  <td>
-                    
-                    <div class="d-flex">
-                      <div class="table-avatar">
-                        <img src="assets/img/table-avatar.jpg" alt="Profile" class="rounded-circle">
-                      </div>
-                      <div class="div">
-                        Rohit Kumar <br> <span class="employee-table-user-email"> webdesigning@stanvac.com </span> 
-                      </div>
-                    </div>
-
-                  </td>
-                  <td>+91-8585909586</td>
-                  <td> Web Developers </td>
-                  <td>27-Feb-2022</td>
-                  <td>Stanvac Chemicals</td>
-                 <td> <span class="pr-2"><i class="bi bi-eye px-1"></i> </span> <span> <i class="bi bi-download"></i></i> </span></td>
-                </tr>
-                <tr>
-                  <th><input type="checkbox" class="form-check-input" id="exampleCheck1"></th>
-                  <td>
-                    
-                    <div class="d-flex">
-                      <div class="table-avatar">
-                        <img src="assets/img/table-avatar.jpg" alt="Profile" class="rounded-circle">
-                      </div>
-                      <div class="div">
-                        Rohit Kumar <br> <span class="employee-table-user-email"> webdesigning@stanvac.com </span> 
-                      </div>
-                    </div>
-
-                  </td>
-                  <td>+91-8585909586</td>
-                  <td> Web Developers </td>
-                  <td>27-Feb-2022</td>
-                  <td>Stanvac Chemicals</td>
-                 <td> <span class="pr-2"><i class="bi bi-eye px-1"></i> </span> <span> <i class="bi bi-download"></i></i> </span></td>
-                </tr>
-                <tr>
-                  <th><input type="checkbox" class="form-check-input" id="exampleCheck1"></th>
-                  <td>
-                    
-                    <div class="d-flex">
-                      <div class="table-avatar">
-                        <img src="assets/img/table-avatar.jpg" alt="Profile" class="rounded-circle">
-                      </div>
-                      <div class="div">
-                        Rohit Kumar <br> <span class="employee-table-user-email"> webdesigning@stanvac.com </span> 
-                      </div>
-                    </div>
-
-                  </td>
-                  <td>+91-8585909586</td>
-                  <td> Web Developers </td>
-                  <td>27-Feb-2022</td>
-                  <td>Stanvac Chemicals</td>
-                 <td> <span class="pr-2"><i class="bi bi-eye px-1"></i> </span> <span> <i class="bi bi-download"></i></i> </span></td>
-                </tr>
+  
+                    </td>
+                    <td>+91-8585909586</td>
+                    <td>Android Developer </td>
+                    <td>27-Feb-2022</td>
+                    <td>Stanvac Chemicals</td>
+                    <td> <span class="pr-2"><i class="bi bi-eye px-1"></i> </span> <span> <i class="bi bi-download"></i></i> </span></td>
+                  </tr>
+  
                 
-                
-                
-              </tbody>
-            </table>
-            <!-- End Default Table Example -->
+                  <tr>
+                    <th><input type="checkbox" class="form-check-input" id="exampleCheck1"></th>
+                    <td>
+                      
+                      <div class="d-flex">
+                        <div class="table-avatar">
+                          <img src="assets/img/table-avatar.jpg" alt="Profile" class="rounded-circle">
+                        </div>
+                        <div class="div">
+                          Rohit Kumar <br> <span class="employee-table-user-email"> webdesigning@stanvac.com </span> 
+                        </div>
+                      </div>
+  
+                    </td>
+                    <td>+91-8585909586</td>
+                    <td>IOS Developer </td>
+                    <td>27-Feb-2022</td>
+                    <td>Stanvac Chemicals</td>
+                    <td> <span class="pr-2"><i class="bi bi-eye px-1"></i> </span> <span> <i class="bi bi-download"></i></i> </span></td>
+                  </tr>
+                  <tr>
+                    <th><input type="checkbox" class="form-check-input" id="exampleCheck1"></th>
+                    <td>
+                      
+                      <div class="d-flex">
+                        <div class="table-avatar">
+                          <img src="assets/img/table-avatar.jpg" alt="Profile" class="rounded-circle">
+                        </div>
+                        <div class="div">
+                          Rohit Kumar <br> <span class="employee-table-user-email"> webdesigning@stanvac.com </span> 
+                        </div>
+                      </div>
+  
+                    </td>
+                    <td>+91-8585909586</td>
+                    <td>Team Leader </td>
+                    <td>27-Feb-2022</td>
+                    <td>Stanvac Chemicals</td>
+                   <td> <span class="pr-2"><i class="bi bi-eye px-1"></i> </span> <span> <i class="bi bi-download"></i></i> </span></td>
+                  </tr>
+                  <tr>
+                    <th><input type="checkbox" class="form-check-input" id="exampleCheck1"></th>
+                    <td>
+                      
+                      <div class="d-flex">
+                        <div class="table-avatar">
+                          <img src="assets/img/table-avatar.jpg" alt="Profile" class="rounded-circle">
+                        </div>
+                        <div class="div">
+                          Rohit Kumar <br> <span class="employee-table-user-email"> webdesigning@stanvac.com </span> 
+                        </div>
+                      </div>
+  
+                    </td>
+                    <td>+91-8585909586</td>
+                    <td> Web Developers </td>
+                    <td>27-Feb-2022</td>
+                    <td>Stanvac Chemicals</td>
+                   <td> <span class="pr-2"><i class="bi bi-eye px-1"></i> </span> <span> <i class="bi bi-download"></i></i> </span></td>
+                  </tr>
+                  <tr>
+                    <th><input type="checkbox" class="form-check-input" id="exampleCheck1"></th>
+                    <td>
+                      
+                      <div class="d-flex">
+                        <div class="table-avatar">
+                          <img src="assets/img/table-avatar.jpg" alt="Profile" class="rounded-circle">
+                        </div>
+                        <div class="div">
+                          Rohit Kumar <br> <span class="employee-table-user-email"> webdesigning@stanvac.com </span> 
+                        </div>
+                      </div>
+  
+                    </td>
+                    <td>+91-8585909586</td>
+                    <td> Web Developers </td>
+                    <td>27-Feb-2022</td>
+                    <td>Stanvac Chemicals</td>
+                   <td> <span class="pr-2"><i class="bi bi-eye px-1"></i> </span> <span> <i class="bi bi-download"></i></i> </span></td>
+                  </tr>
+                  <tr>
+                    <th><input type="checkbox" class="form-check-input" id="exampleCheck1"></th>
+                    <td>
+                      
+                      <div class="d-flex">
+                        <div class="table-avatar">
+                          <img src="assets/img/table-avatar.jpg" alt="Profile" class="rounded-circle">
+                        </div>
+                        <div class="div">
+                          Rohit Kumar <br> <span class="employee-table-user-email"> webdesigning@stanvac.com </span> 
+                        </div>
+                      </div>
+  
+                    </td>
+                    <td>+91-8585909586</td>
+                    <td> Web Developers </td>
+                    <td>27-Feb-2022</td>
+                    <td>Stanvac Chemicals</td>
+                   <td> <span class="pr-2"><i class="bi bi-eye px-1"></i> </span> <span> <i class="bi bi-download"></i></i> </span></td>
+                  </tr>
+                  <tr>
+                    <th><input type="checkbox" class="form-check-input" id="exampleCheck1"></th>
+                    <td>
+                      
+                      <div class="d-flex">
+                        <div class="table-avatar">
+                          <img src="assets/img/table-avatar.jpg" alt="Profile" class="rounded-circle">
+                        </div>
+                        <div class="div">
+                          Rohit Kumar <br> <span class="employee-table-user-email"> webdesigning@stanvac.com </span> 
+                        </div>
+                      </div>
+  
+                    </td>
+                    <td>+91-8585909586</td>
+                    <td> Web Developers </td>
+                    <td>27-Feb-2022</td>
+                    <td>Stanvac Chemicals</td>
+                   <td> <span class="pr-2"><i class="bi bi-eye px-1"></i> </span> <span> <i class="bi bi-download"></i></i> </span></td>
+                  </tr>
+                </tbody>
+              </table>
+              <!-- End Employee Table -->
 
-            <!-- Start Pagination  -->
-            <div class="row py-2">
-              <div class="col-lg-4">
+              <!-- Start Pagination  -->
+              <div class="row py-2">
+                <div class="col-lg-4">
 
-              </div>
-              <div class="col-lg-4">
-                <div class="text-center">
-                  <button type="submit" class="btn border stanvac-btn-border-blue px-5"> Next </button>
                 </div>
-              </div>
-              <div class="col-lg-4">
 
-                <div class="d-flex flex-row-reverse">
-                  <nav aria-label="Page navigation example">
-                    <ul class="pagination">
-                      <li class="page-item">
-                        <a class="page-link" href="#" aria-label="Previous">
-                          <span aria-hidden="true">&laquo;</span>
-                        </a>
-                      </li>
-                      <li class="page-item"><a class="page-link" href="#">1</a></li>
-                      <li class="page-item">
-                        <a class="page-link" href="#" aria-label="Next">
-                          <span aria-hidden="true">&raquo;</span>
-                        </a>
-                      </li>
-                    </ul>
-                  </nav>
+                <div class="col-lg-4">
+                  <div class="text-center">
+                    <button type="submit" class="btn border stanvac-btn-border-blue px-5"> Next </button>
+                  </div>
+                </div>
+
+                <div class="col-lg-4">
+                  <div class="d-flex flex-row-reverse pagination-table-pr">
+                    <nav aria-label="Page navigation example">
+                      <ul class="pagination">
+                        <li class="page-item">
+                          <a class="page-link" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                          </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item">
+                          <a class="page-link" href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
                 </div>
 
               </div>
+              <!-- End Pagination  -->
 
             </div>
-            
-            <!-- End Pagination  -->
-          
           </div>
-          
+        </div>
       </div>
-
     </section>
-    <!-- End Section -->
+    <!-- Section End Employee List Table -->
 
   </main>
   <!-- End #main -->
-
-
 
 
 

@@ -1,7 +1,18 @@
+/* 
+Theme : Stanvac HR Portal
+Framework: Bootstrap 5
+Edited by : Jaikangam Malangmei 
+Website : www.jaikangam.com
+*/
+
+
+/* */
 body{
     font-size: 14px;
     background-color: #fff;
-  }
+}
+
+
 .stanvac-font{
     font-size: 15px;
 }
@@ -9,6 +20,9 @@ body{
     font-size: 25px;
 }
 
+
+
+/* ========== Start Button ========== */
 .btn-stanvac-orange {
     background-color: #ef6500;
     color:#fff;
@@ -25,6 +39,135 @@ body{
     color:#fff;
     border-radius: 5px;
 }
+/* ========== End Button ========== */
+
+
+
+
+
+
+/* ========== Start Sidebar ========== */
+.sidebar {
+    width: 290px; 
+    padding: 0px;   
+}
+
+.sidebar-nav .nav-content a {
+    color: rgba(199, 16, 209, 0.732);
+}
+
+.sidebar-nav img{
+    width: 30px;
+    margin-right: 10px;
+}
+.sidebar-username{
+    font-size: 17px;
+    color: #fff;
+}
+.sidebar-hr{
+    color: #a9e9ee;
+    margin-bottom: 10px;
+}
+.sidebar-menu{
+    padding-left: 20px;
+  
+}
+/* Active  */
+.sidebar-menu .nav-link.active{
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+.nav-link.active {
+    color: rgb(129, 35, 35);
+    font-weight: 600;
+}
+.sidebar-nav .nav-link.collapsed {
+    color: rgba(230, 240, 224, 0.636);
+    font-weight: 400;
+}
+.sidebar-nav .nav-link {
+    color: rgba(230, 240, 224, 0.636);
+    font-weight: 400;
+}
+
+.sidebar-nav .nav-content a:hover {
+    color: #fff;
+}
+.nav-link.i.active{
+    color: rgb(129, 35, 35);
+    
+}
+/* ========== End Sidebar =========== */
+
+
+
+
+
+
+/* ========== Start Stanvac Card ========== */
+.stanvac_card {
+    margin-bottom: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ef6500;
+    border-radius: 5px;
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1); 
+    background-color: none !important; 
+}
+.stanvac_card_body {
+    flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color: var(--bs-card-color);
+    padding: 10px 20px 20px 20px;
+    
+}
+.stanvac-card-number{
+    font-size: 18px;
+    font-weight: 600;
+    color: #ef6500;
+}
+.stanvac_card_policy img{
+    padding-top: 10px;
+    padding-bottom: 15px;
+    width: 50px;
+}
+.stanvac_card_policy {
+    flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color: var(--bs-card-color);
+    padding: 15px;
+    
+}
+/* ========== End Stanvac Card ========== */
+
+
+
+
+
+
+/* ========== Start Table ========== */
+.table-heading{
+    font-size: 17px;
+}
+th{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.table-avatar img{
+    width: 40px;
+    margin-right: 10px;
+}
+.employee-table-user-email{
+    font-size: 13px;
+}
+/* ========== End Table =========== */
+
+
+
+
+
+
 
 .stanvac-login-background{
     background-image: url("../img/login-bg.jpg");
@@ -39,33 +182,13 @@ body{
     width: 90px;
 }
 
-.sidebar-profile img {
-    width: 10px;
-}
 
-.stanvac-policies-card img{
-    padding-top: 10px;
-    padding-bottom: 15px;
-    width: 50px;
-}
 
-.stanvac-vp-font{
-    font-size: 20px;
-    color: #ef6500;
-}
 
-.employee-table{
-    border-style: solid;
-    border-width: 1px;
-    border-color: #ef6500;
-    border-radius: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
-}
 
-.employee-table-user-email{
-    font-size: 13px;
-}
+
+
+
 
 .back-to-top {
     background: #2387c8;
@@ -85,26 +208,24 @@ body{
 .pr-3{
     padding-right: 15px;
 }
+.pr-4{
+    padding-right: 20px;
+}
 
 .pl-1{
     padding-left: 5px;
 }
-
 .pl-2{
     padding-left: 10px;
 }
-
 .pl-3{
     padding-left: 15px;
 }
-
-.sidebar-nav .nav-content a {
-    color: #fff;
+.pl-4{
+    padding-left: 20px;
 }
 
-.sidebar-nav .nav-content a:hover {
-    color: #fff;
-}
+
 
 .modal-content {
     margin-top:25%;
@@ -131,23 +252,11 @@ body{
 .text-stanvac-orange{
     color: #ef6500;
 }
-.scrollme {
-    overflow-x: auto;
-}
 
-.table-heading{
-    font-size: 17px;
-}
-th{
-    font-weight: 500;
-    font-size: 14px;
-}
 
-.table-avatar img{
-    width: 40px;
-    margin-right: 10px;
-    
-}
+
+
+
 
 /* Navbar code  */
 /* Navbar code  */
@@ -196,27 +305,8 @@ th{
     .card-body {
         padding: 0px 12px 12px;
     }
-    .stanvac-verification-card{
-        border-style: solid;
-        border-width: 1px;
-        border-color: #ef6500;
-        border-radius: 5px;
-        margin-left: 5px;
-        margin-right: 5px;
-        width: 97%;
-        margin-bottom: 10px;
-    }
-    .stanvac-policies-card{
-        border-style: solid;
-        border-width: 1px;
-        border-color: #ef6500;
-        border-radius: 5px;
-        margin-left: 5px;
-        margin-right: 5px;
-        width: 47%;
-        padding: 20px 15px;
-        margin-bottom: 10px;
-    }
+    
+    
     .nav-title{
         text-decoration: none;
         margin-left: 1px;
@@ -262,27 +352,8 @@ th{
         padding-left: 10px;
         padding-right: 10px;
     }
-    .stanvac-verification-card{
-        border-style: solid;
-        border-width: 1px;
-        border-color: #ef6500;
-        border-radius: 5px;
-        margin-left: 5px;
-        margin-right: 5px;
-        width: 48%;
-        margin-bottom: 10px;
-    }
-    .stanvac-policies-card{
-        border-style: solid;
-        border-width: 1px;
-        border-color: #ef6500;
-        border-radius: 5px;
-        margin-left: 5px;
-        margin-right: 5px;
-        width: 31%;
-        padding: 20px 15px;
-        margin-bottom: 10px;
-    }
+    
+    
     .nav-title{
         text-decoration: none;
         margin-left: 10px;
@@ -333,26 +404,8 @@ th{
         padding-left: 10px;
         padding-right: 10px;
     }
-    .stanvac-verification-card{
-        border-style: solid;
-        border-width: 1px;
-        border-color: #ef6500;
-        border-radius: 5px;
-        margin-left: 5px;
-        margin-right: 5px;
-        width: 48%;
-    }
-    .stanvac-policies-card{
-        border-style: solid;
-        border-width: 1px;
-        border-color: #ef6500;
-        border-radius: 5px;
-        margin-left: 5px;
-        margin-right: 5px;
-        width: 32%;
-        padding: 20px 15px;
-        margin-bottom: 10px;
-    }
+    
+    
     .nav-title{
         text-decoration: none;
         margin-left: 10px;
@@ -388,25 +441,9 @@ th{
         margin-left: -20px;
         margin-bottom: -10px;
     }
-    .stanvac-verification-card{
-        border-style: solid;
-        border-width: 1px;
-        border-color: #ef6500;
-        border-radius: 5px;
-        margin-left: 5px;
-        margin-right: 5px;
-        width: 49%;
-    }
-    .stanvac-policies-card{
-        border-style: solid;
-        border-width: 1px;
-        border-color: #ef6500;
-        border-radius: 5px;
-        margin-left: 5px;
-        margin-right: 5px;
-        width: 15.5%;
-        padding: 20px 15px;
-    }
+   
+   
+
     .nav-title{
         text-decoration: none;
         margin-left: 10px;
@@ -435,6 +472,12 @@ th{
         font-size: 60px;
         padding-top: 120px;
     }
+    .logo {
+        width: 260px;
+    }
+    .pagination-table-pr{
+        padding-right: 30px;
+    }
     .stanvac-login-background{
         background-image: url("../img/login-bg.jpg");
         max-width: 100%;
@@ -449,25 +492,8 @@ th{
         padding-left: 35px;
         padding-right: 35px;
     } 
-    .stanvac-verification-card{
-        border-style: solid;
-        border-width: 1px;
-        border-color: #ef6500;
-        border-radius: 5px;
-        margin-left: 5px;
-        margin-right: 5px;
-        width: 24%;
-    }
-    .stanvac-policies-card{
-        border-style: solid;
-        border-width: 1px;
-        border-color: #ef6500;
-        border-radius: 5px;
-        margin-left: 5px;
-        margin-right: 5px;
-        width: 15.5%;
-        padding: 20px 15px;
-    }
+   
+    
     .nav-title{
         text-decoration: none;
         margin-left: 10px;

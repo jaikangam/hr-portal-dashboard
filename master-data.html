@@ -134,47 +134,58 @@
 
 
   
-  <!-- ======= Sidebar ======= -->
+  <!-- ========== Sidebar ========== -->
   <aside id="sidebar" class="sidebar">
 
     <ul class="sidebar-nav" id="sidebar-nav">
-
-      <li class="nav-item">
-        <a class="nav-link sidebar-profile" href="#" >
-          <i class="bi bi-person"></i>
-          <span>Garima </span>
-        </a>
-      </li><!-- End Dashboard Nav -->
-
-      <hr class="text-white"> 
-
-      <li class="nav-item">
-        <a class="nav-link " href="master-data.html">
-         
-          <i class="bi bi-caret-right-fill"></i>
-          <span>Master Data  </span>
-        </a>
-      </li><!-- End Master Data  Page Nav -->
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="verification.html">
-          <i class="bi bi-caret-right-fill"></i>
-          <span> Verification  </span>
-        </a>
-        
+      
+      <!-- Username -->
+      <li class="nav-item px-3">
+        <div class="text-center d-flex justify-content-start pt-3">
+          <img src="assets/img/table-avatar.jpg" alt="Profile" class="rounded-circle"> 
+          <span class="sidebar-username"> Garima </span>
+        </div>
       </li>
+      <!-- End Username -->
 
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="policies.html">
-          <i class="bi bi-caret-right-fill"></i>
-          <span> Policy  </span>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="on-hold-data.html">
-          <i class="bi bi-caret-right-fill"></i>
-          <span> On Hold Data  </span>
-        </a>
-      </li>
+
+      <hr class="sidebar-hr"> 
+
+      <!-- Sidebar Menu -->
+      <div class="sidebar-menu">
+        <li class="nav-item">
+          <a class="nav-link active" href="master-data.html">
+            <i class="bi bi-caret-right-fill"></i>
+            <span>Master Data </span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link " href="verification.html">
+            <i class="bi bi-caret-right-fill"></i>
+            <span> Verification  </span>
+          </a>  
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="policies.html">
+            <i class="bi bi-caret-right-fill"></i>
+            <span> Policy  </span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="on-hold-data.html">
+            <i class="bi bi-caret-right-fill"></i>
+            <span> On Hold Data  </span>
+          </a>
+        </li>
+
+      </div>
+      <!-- End Sidebar Menu -->
+      
+
+      
 
       <!-- <li class="nav-item">
         <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="on-hold-data.html">
@@ -195,188 +206,329 @@
       </li>-->
     </ul>
 
-  </aside><!-- End Sidebar-->
+  </aside>
+  <!-- =========== Sidebar =========== -->
+
+
+
+
+
 
   <main id="main" class="main">
 
-    <section class="section">
 
-      <!-- Verification Row -->
-      <div class="row pt-3">
-
-        <div class="col-lg-3 col-md-6 col-sm-12 stanvac-verification-card text-center d-flex justify-content-between">
-          
-            <div class="pt-4 pb-4 px-2 ">Total Employee </div>  
-            <div class="pt-4 pb-4 px-2 stanvac-vp-font"> <b> 858 </b></div>
+    <!-- Section Data 4 Row -->
+    <section class="section pt-1 pb-3">
+      
+      <div class="row">
         
-        </div>    
-        
-        
-        <div class="col-lg-3 col-md-6 col-sm-12 stanvac-verification-card text-center d-flex justify-content-between">
-        
-          <div class="pt-4 pb-4 px-2 "> New Employee  </div>  
-            <div class="pt-4 pb-4 px-2 stanvac-vp-font"> <b> 112 </b></div>
-        </div>  
-
-        <div class="col-lg-3 stanvac-verification-card text-center d-flex justify-content-between">
-                
-          <div class="pt-4 pb-4 px-2 "> Male Employee   </div>  
-            <div class="pt-4 pb-4 px-2 stanvac-vp-font"> <b> 644 </b></div>
-        </div> 
-
-
-        <div class="col-lg-3 stanvac-verification-card text-center d-flex justify-content-between">
-                
-          <div class="pt-4 pb-4 px-2 "> Female Employee   </div>  
-            <div class="pt-4 pb-4 px-2 stanvac-vp-font"> <b> 102 </b></div>
-        </div> 
-
-
-      </div>
-      <!-- Close Vertification Row  -->
-
-    </section>
-
-    <section class="section">
-      <div class="row pt-3 pb-5 pr-3">
-        
-        <div class="scrollme employee-table">
-            
-            <h5 class="card-title"> Employee List  </h5>
-
-            <!-- Default Table -->
-            <table class="table">
-              <thead>
-                <tr>
-                  <th scope="col"><input type="checkbox" class="form-check-input" id="exampleCheck1"></th>
-                  <th scope="col">Name</th>
-                  <th scope="col">Employee ID</th>
-                  <th scope="col">Phone </th>
-                  <th scope="col">Join Date</th>
-                  <th scope="col">Role</th>
-                  <th scope="col">Action</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th><input type="checkbox" class="form-check-input" id="exampleCheck1"></th>
-                  <td>Rohit Kumar <br> <span class="employee-table-user-email"> webdesigning@stanvac.com </span> </td>
-                  <td>110026</td>
-                  <td>+91-8585909586</td>
-                  <td>01 Jan, 2020</td>
-                  <td>UI Designer</td>
-                  <td><i class="bi bi-eye px-1"></i> <i class="bi bi-pencil-square px-1"></i></td>
-                </tr>
-
-                <tr>
-                  <th><input type="checkbox" class="form-check-input" id="exampleCheck1"></th>
-                  <td>Rohit Kumar <br> <span class="employee-table-user-email"> webdesigning@stanvac.com </span>  </td>
-                  <td>110026</td>
-                  <td>+91-8585909586</td>
-                  <td>01 Jan, 2020</td>
-                  <td>UI Designer</td>
-                  <td><i class="bi bi-eye px-1"></i> <i class="bi bi-pencil-square px-1"></i></td>
-                </tr>
-                <tr>
-                  <th><input type="checkbox" class="form-check-input" id="exampleCheck1"></th>
-                  <td>Rohit Kumar <br> <span class="employee-table-user-email"> webdesigning@stanvac.com </span>  </td>
-                  <td>110026</td>
-                  <td>+91-8585909586</td>
-                  <td>01 Jan, 2020</td>
-                  <td>UI Designer</td>
-                  <td><i class="bi bi-eye px-1"></i> <i class="bi bi-pencil-square px-1"></i></td>
-                </tr>
-                <tr>
-                  <th><input type="checkbox" class="form-check-input" id="exampleCheck1"></th>
-                  <td>Rohit Kumar <br> <span class="employee-table-user-email"> webdesigning@stanvac.com </span>  </td>
-                  <td>110026</td>
-                  <td>+91-8585909586</td>
-                  <td>01 Jan, 2020</td>
-                  <td>UI Designer</td>
-                  <td><i class="bi bi-eye px-1"></i> <i class="bi bi-pencil-square px-1"></i></td>
-                </tr>
-                <tr>
-                  <th><input type="checkbox" class="form-check-input" id="exampleCheck1"></th>
-                  <td>Rohit Kumar <br> <span class="employee-table-user-email"> webdesigning@stanvac.com </span>  </td>
-                  <td>110026</td>
-                  <td>+91-8585909586</td>
-                  <td>01 Jan, 2020</td>
-                  <td>UI Designer</td>
-                  <td><i class="bi bi-eye px-1"></i> <i class="bi bi-pencil-square px-1"></i></td>
-                </tr>
-                <tr>
-                  <th><input type="checkbox" class="form-check-input" id="exampleCheck1"></th>
-                  <td>Rohit Kumar <br> <span class="employee-table-user-email"> webdesigning@stanvac.com </span>  </td>
-                  <td>110026</td>
-                  <td>+91-8585909586</td>
-                  <td>01 Jan, 2020</td>
-                  <td>UI Designer</td>
-                  <td><i class="bi bi-eye px-1"></i> <i class="bi bi-pencil-square px-1"></i></td>
-                </tr>
-                <tr>
-                  <th><input type="checkbox" class="form-check-input" id="exampleCheck1"></th>
-                  <td>Rohit Kumar <br> <span class="employee-table-user-email"> webdesigning@stanvac.com </span>  </td>
-                  <td>110026</td>
-                  <td>+91-8585909586</td>
-                  <td>01 Jan, 2020</td>
-                  <td>UI Designer</td>
-                  <td><i class="bi bi-eye px-1"></i> <i class="bi bi-pencil-square px-1"></i></td>
-                </tr>
-                <tr>
-                  <th><input type="checkbox" class="form-check-input" id="exampleCheck1"></th>
-                  <td>Rohit Kumar <br> <span class="employee-table-user-email"> webdesigning@stanvac.com </span>  </td>
-                  <td>110026</td>
-                  <td>+91-8585909586</td>
-                  <td>01 Jan, 2020</td>
-                  <td>UI Designer</td>
-                  <td><i class="bi bi-eye px-1"></i> <i class="bi bi-pencil-square px-1"></i></td>
-                </tr>
-                <tr>
-                  <th><input type="checkbox" class="form-check-input" id="exampleCheck1"></th>
-                  <td>Rohit Kumar <br> <span class="employee-table-user-email"> webdesigning@stanvac.com </span>  </td>
-                  <td>110026</td>
-                  <td>+91-8585909586</td>
-                  <td>01 Jan, 2020</td>
-                  <td>UI Designer</td>
-                  <td><i class="bi bi-eye px-1"></i> <i class="bi bi-pencil-square px-1"></i></td>
-                </tr>
-                
-               
-                
-              </tbody>
-            </table>
-            <!-- End Default Table Example -->
-
-            <div class="d-flex flex-row-reverse">
-              <nav aria-label="Page navigation example">
-                <ul class="pagination">
-                  <li class="page-item">
-                    <a class="page-link" href="#" aria-label="Previous">
-                      <span aria-hidden="true">&laquo;</span>
-                    </a>
-                  </li>
-                  <li class="page-item"><a class="page-link" href="#">1</a></li>
-                  <li class="page-item"><a class="page-link" href="#">2</a></li>
-                  <li class="page-item"><a class="page-link" href="#">3</a></li>
-                  <li class="page-item">
-                    <a class="page-link" href="#" aria-label="Next">
-                      <span aria-hidden="true">&raquo;</span>
-                    </a>
-                  </li>
-                </ul>
-              </nav>
+        <!-- Total Employee  -->
+        <div class="col-xxl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+          <div class="stanvac_card ">
+            <div class="stanvac_card_body">
+              <div class="text-center d-flex justify-content-between pt-3">
+                <div class=" "> Total Employee </div>  
+                <div class="stanvac-card-number"> 858 </div>
+              </div>
             </div>
-            
+          </div>
+        </div>
+        <!-- End Total Employee -->
+
+        <!-- New Employee  -->
+        <div class="col-xxl-3 col-lg-3 col-md-6 col-sm-6 col-12 ">
+          <div class="stanvac_card ">
+            <div class="stanvac_card_body">
+              <div class="text-center d-flex justify-content-between pt-3">
+                <div class=" "> New Employee  </div>  
+                <div class="stanvac-card-number"> 112 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End New Employee -->
+
+
+        <!-- Male Employee -->
+        <div class="col-xxl-3 col-lg-3 col-md-6 col-sm-6 col-12 ">
+          <div class="stanvac_card ">
+            <div class="stanvac_card_body">
+              <div class="text-center d-flex justify-content-between pt-3">
+                <div class=" "> Male Employee </div>  
+                <div class="stanvac-card-number"> 644 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Male Employee-->
+
+
+        <!-- Female Employee -->
+        <div class="col-xxl-3 col-lg-3 col-md-6 col-sm-6 col-12 ">
+          <div class="stanvac_card ">
+            <div class="stanvac_card_body">
+              <div class="text-center d-flex justify-content-between pt-3">
+                <div class=" "> Female Employee </div>  
+                <div class="stanvac-card-number"> 102 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Female Employee-->
+
         
 
+      </div>
+      
+    </section>
+    <!-- Sectin End Data 4 Row  -->
+
+
+    <!-- Section Employee List Table -->
+    <section class="section pb-5">
+      <div class="row">
+
+        <div class="col-12">
+          <div class="stanvac_card overflow-auto">
+            <div class="stanvac_card_body">
+              <!-- Row Table Heading -->
+              <div class="row px-2 pt-3 pb-3"> 
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                  <h6 class="table-heading"> EMPLOYEE LIST  </h6>
+                </div>
+              </div>
+              <!-- End Row Table Heading -->
+
+              <!-- Employee Table -->
+              <table class="table align-self-center">
+                <thead>
+                  <tr>
+                    <th scope="col"><input type="checkbox" class="form-check-input" id="exampleCheck1"></th>
+                    <th scope="col">NAME</th>
+                    <th scope="col">EMPLOYEE ID</th>
+                    <th scope="col">PHONE </th>
+                    <th scope="col">JOIN DATE</th>
+                    <th scope="col">ROLE</th>
+                    <th scope="col">ACTION</th>
+                  </tr>
+                </thead>
+                <tbody>
+
+                  <tr>
+                    <th class="align-self-center"><input type="checkbox" class="form-check-input" id="exampleCheck1"></th>
+                    <td>
+                      <div class="d-flex">
+                        <div class="table-avatar">
+                          <img src="assets/img/table-avatar.jpg" alt="Profile" class="rounded-circle">
+                        </div>
+                        <div class="div">
+                          Rohit Kumar <br> <span class="employee-table-user-email"> webdesigning@stanvac.com </span> 
+                        </div>
+                      </div>
+                    </td>
+                    <td>110026</td>
+                    <td>+91-8585909586 </td>
+                    <td>27-Feb-2022</td>
+                    <td>UI Designer</td>
+                    <td> 
+                      <span class="pr-2"><i class="bi bi-eye px-1"></i> </span> 
+                      <span> <i class="bi bi-pencil-square px-1"></i></span>
+                    </td>
+                  </tr>
+
+                
+                  <tr>
+                    <th><input type="checkbox" class="form-check-input" id="exampleCheck1"></th>
+                    <td>
+                      <div class="d-flex">
+                        <div class="table-avatar">
+                          <img src="assets/img/table-avatar.jpg" alt="Profile" class="rounded-circle">
+                        </div>
+                        <div class="div">
+                          Rohit Kumar <br> <span class="employee-table-user-email"> webdesigning@stanvac.com </span> 
+                        </div>
+                      </div>
+                    </td>
+                    <td>110026</td>
+                    <td>+91-8585909586</td>
+                    <td>27-Feb-2022</td>
+                    <td>UI Designer</td>
+                    <td> 
+                      <span class="pr-2"><i class="bi bi-eye px-1"></i> </span> 
+                      <span> <i class="bi bi-pencil-square px-1"></i></span>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <th><input type="checkbox" class="form-check-input" id="exampleCheck1"></th>
+                    <td>
+                      <div class="d-flex">
+                        <div class="table-avatar">
+                          <img src="assets/img/table-avatar.jpg" alt="Profile" class="rounded-circle">
+                        </div>
+                        <div class="div">
+                          Rohit Kumar <br> <span class="employee-table-user-email"> webdesigning@stanvac.com </span> 
+                        </div>
+                      </div>
+                    </td>
+                    <td>110026</td>
+                    <td>+91-8585909586 </td>
+                    <td>27-Feb-2022</td>
+                    <td>UI Designer</td>
+                  <td> 
+                      <span class="pr-2"><i class="bi bi-eye px-1"></i> </span> 
+                      <span> <i class="bi bi-pencil-square px-1"></i></span>
+                    </td>
+                  </tr>
+
+
+                  <tr>
+                    <th><input type="checkbox" class="form-check-input" id="exampleCheck1"></th>
+                    <td>
+                      <div class="d-flex">
+                        <div class="table-avatar">
+                          <img src="assets/img/table-avatar.jpg" alt="Profile" class="rounded-circle">
+                        </div>
+                        <div class="div">
+                          Rohit Kumar <br> <span class="employee-table-user-email"> webdesigning@stanvac.com </span> 
+                        </div>
+                      </div>
+                    </td>
+                    <td>110026</td>
+                    <td>+91-8585909586 </td>
+                    <td>27-Feb-2022</td>
+                    <td>UI Designer</td>
+                  <td> 
+                      <span class="pr-2"><i class="bi bi-eye px-1"></i> </span> 
+                      <span> <i class="bi bi-pencil-square px-1"></i></span>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <th><input type="checkbox" class="form-check-input" id="exampleCheck1"></th>
+                    <td>
+                      <div class="d-flex">
+                        <div class="table-avatar">
+                          <img src="assets/img/table-avatar.jpg" alt="Profile" class="rounded-circle">
+                        </div>
+                        <div class="div">
+                          Rohit Kumar <br> <span class="employee-table-user-email"> webdesigning@stanvac.com </span> 
+                        </div>
+                      </div>
+
+                    </td>
+                    <td>110026</td>
+                    <td>+91-8585909586 </td>
+                    <td>27-Feb-2022</td>
+                    <td>UI Designer</td>
+                  <td> 
+                      <span class="pr-2"><i class="bi bi-eye px-1"></i> </span> 
+                      <span> <i class="bi bi-pencil-square px-1"></i></span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th><input type="checkbox" class="form-check-input" id="exampleCheck1"></th>
+                    <td>
+                      
+                      <div class="d-flex">
+                        <div class="table-avatar">
+                          <img src="assets/img/table-avatar.jpg" alt="Profile" class="rounded-circle">
+                        </div>
+                        <div class="div">
+                          Rohit Kumar <br> <span class="employee-table-user-email"> webdesigning@stanvac.com </span> 
+                        </div>
+                      </div>
+
+                    </td>
+                    <td>110026</td>
+                    <td>+91-8585909586 </td>
+                    <td>27-Feb-2022</td>
+                    <td>UI Designer</td>
+                  <td> 
+                      <span class="pr-2"><i class="bi bi-eye px-1"></i> </span> 
+                      <span> <i class="bi bi-pencil-square px-1"></i></span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th><input type="checkbox" class="form-check-input" id="exampleCheck1"></th>
+                    <td>
+                      
+                      <div class="d-flex">
+                        <div class="table-avatar">
+                          <img src="assets/img/table-avatar.jpg" alt="Profile" class="rounded-circle">
+                        </div>
+                        <div class="div">
+                          Rohit Kumar <br> <span class="employee-table-user-email"> webdesigning@stanvac.com </span> 
+                        </div>
+                      </div>
+
+                    </td>
+                    <td>110026</td>
+                    <td>+91-8585909586 </td>
+                    <td>27-Feb-2022</td>
+                    <td>UI Designer</td>
+                  <td> 
+                      <span class="pr-2"><i class="bi bi-eye px-1"></i> </span> 
+                      <span> <i class="bi bi-pencil-square px-1"></i></span>
+                    </td>
+                  </tr>
+                  
+                  
+                  
+                </tbody>
+              </table>
+              <!-- End Employee Table -->
+
+              <!-- Start Pagination  -->
+              <div class="row py-2">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  <div class="text-center">
+                    <button type="submit" class="btn border stanvac-btn-border-blue px-5"> Next </button>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  <div class="d-flex flex-row-reverse pagination-table-pr">
+                    <nav aria-label="Page navigation example">
+                      <ul class="pagination">
+                        <li class="page-item">
+                          <a class="page-link" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                          </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item">
+                          <a class="page-link" href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+
+              </div>
+              <!-- End Pagination  -->
+
+            </div>
+
+          </div>
         </div>
-       
+
       </div>
     </section>
+    <!-- Section End Employee List Table -->
+
 
   </main><!-- End #main -->
 
   
+
+
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
