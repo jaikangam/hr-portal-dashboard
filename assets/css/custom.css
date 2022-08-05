@@ -398,9 +398,9 @@ th{
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 575.98px) {
-   .main{
+   /* .main{
         background-color: orange;
-    } 
+    }  */
     .login-welcome{
         font-size: 30px;
         padding-top: 30px;
@@ -444,9 +444,9 @@ th{
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-    .main{
+    /* .main{
         background-color: yellow;
-    } 
+    }  */
     .stanvac-login-background{
         background-image: url("../img/login-bg.jpg");
         max-width: 100%;
@@ -493,9 +493,9 @@ th{
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-    .main{
+    /* .main{
         background-color: red;
-    }    
+    }     */
     .login-welcome{
         font-size: 30px;
         padding-top: 50px;
@@ -542,9 +542,9 @@ th{
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    .main{
+    /* .main{
         background-color: green;
-    } 
+    }  */
     .login-welcome{
         font-size: 50px;
         padding-top: 130px;

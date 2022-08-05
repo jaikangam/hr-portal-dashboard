@@ -256,249 +256,534 @@
     <!-- Sectin Flex User Details  -->
 
 
-    <!-- Section Employee List Table -->
-    <section class="section pb-5">
+    <!-- Accordian Section -->
+    <section class="section">
       <div class="row">
 
-    
-        <div class="col-12">
-          <div class="stanvac_card overflow-auto">
-            <div class="stanvac_card_body">
-              <!-- Row Table Heading -->
-              <div class="row px-2 pt-3 pb-3"> 
-                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
-                  <h6 class="table-heading"> EMPLOYEE LIST  </h6>
+        <!-- Employee Accordion -->
+        <div class="accordion" id="accordionExample">
+          
+          <!-- 1 Personal Information-->
+          <div class="accordion-item ">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseTwo">
+                <span class="accordian_title">Personal Information</span>
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <div class="row">
+                  <div class="col-xl-4 col-lg-4 col-4">
+                      <table class="table">
+                        
+                        <tbody>
+                          <tr>  
+                            <td> Company : Stanvac </td>
+                          </tr>
+                          <tr>
+                            <td> Date of Birth : 01-Jan-1995 </td>
+                          </tr>
+                          <tr>
+                            <td> Date of Join : 01-Jan-2020 </td>
+                          </tr>
+                          <tr>
+                            <td> Gender : Man </td>
+                          </tr>
+                          <tr>
+                            <td> Nationality : Indian </td>
+                          </tr>
+                          <tr>
+                            <td> Religion : Hindu </td>
+                          </tr>
+                          <tr>
+                            <td> Aadhar Card Number : 3526-2587-8452   </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      
+                  </div>
+                  <div class="col-4">
+                    
+                    <table class="table">
+                        
+                      <tbody>
+                        <tr>  
+                          <td> PF Number : 1025576374 </td>
+                        </tr>
+                        <tr>
+                          <td> Pan Card Number : EC7856AC1 </td>
+                        </tr>
+                        <tr>
+                          <td> Aadhar Card Attachment : View  </td>
+                        </tr>
+                        <tr>
+                          <td> Passport Attachment : View </td>
+                        </tr>
+                        <tr>
+                          <td> Pan Card Attachment : View  </td>
+                        </tr>
+                        <tr>
+                          <td> Referral Name : Ashish </td>
+                        </tr>
+                        <tr>
+                          
+                        </tr>
+                      </tbody>
+                    </table>
+                    
+                  </div>
+
+
+                  <div class="col-4">
+                     <span class="employee-table-sub-heading"> Present Address  </span>
+                     <br>
+                     <span> Address: </span> <br> 
+                     <span>Plot no. 551, Sector - 37. Pace City-II, Gurgaon</span> 
+                     <span>(Haryana) 122001, India </span>
+                     <br><br> 
+                     <span class="employee-table-sub-heading"> Permanant Address  </span>
+                     <br>
+                     <span> Address: </span> <br> 
+                     <span>Plot no. 551, Sector - 37. Pace City-II, Gurgaon</span> 
+                     <span>(Haryana) 122001, India </span>
+                  </div>
+
                 </div>
-              </div>
-              <!-- End Row Table Heading -->
+              
 
-              <!-- Employee Table -->
-              <table class="table -table align-self-center">
-                <thead>
-                  <tr>
-                    <th scope="col"><input type="checkbox" class="form-check-input" id="exampleCheck1"></th>
-                    <th scope="col">NAME</th>
-                    <th scope="col">EMPLOYEE ID</th>
-                    <th scope="col">PHONE </th>
-                    <th scope="col">JOIN DATE</th>
-                    <th scope="col">ROLE</th>
-                    <th scope="col">ACTION</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th class="align-self-center"><input type="checkbox" class="form-check-input" id="exampleCheck1"></th>
-                    <td>
-
-                      <div class="d-flex">
-                        <div class="table-avatar">
-                          <img src="assets/img/table-avatar.jpg" alt="Profile" class="rounded-circle">
-                        </div>
-                        <div class="div">
-                          Rohit Kumar <br> <span class="employee-table-user-email"> webdesigning@stanvac.com </span> 
-                        </div>
-                      </div>
-
-                    </td>
-                    <td>110026</td>
-                    <td>+91-8585909586 </td>
-                    <td>27-Feb-2022</td>
-                    <td>UI Designer</td>
-                    <td> 
-                      <span class="pr-2"><i class="bi bi-eye px-1"></i> </span> 
-                      <span> <i class="bi bi-pencil-square px-1"></i></span>
-                    </td>
-                  </tr>
-
+                <hr> 
                 
-                  <tr>
-                    <th><input type="checkbox" class="form-check-input" id="exampleCheck1"></th>
-                    <td>
-                      
-                      <div class="d-flex">
-                        <div class="table-avatar">
-                          <img src="assets/img/table-avatar.jpg" alt="Profile" class="rounded-circle">
+                
+                <!-- Family Information  -->
+                <div class="row">
+                    
+                        <div class="col-xl-8 col-lg-8 col-md-6 col-12">
+                          <div class="row">
+                            <div class="col-12">
+                              <span class="employee-table-sub-heading p-lg-2"> Family Information </span>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-6">
+                              <table class="table">
+                          
+                                <tbody>
+                                  <tr>  
+                                    <td> Father Name : Amit Verma | 01-Jan-1940 | Govr. </td>
+                                  </tr>
+                                  <tr>
+                                    <td> Mother Name : Babita Verma | 01-Jan-1945 | Govr. </td>
+                                  </tr>
+                                  <tr>
+                                    <td> Wife Name : Rima Verma | 01-Jan-1974 | Govr.   </td>
+                                  </tr>
+        
+                                </tbody>
+                              </table>
+                            </div>
+                            <div class="col-6">
+                              <table class="table pt-lg-6">
+                          
+                                <tbody>
+                                  <tr>  
+                                    <td> Children Name : Vivek Verma | 01-Jan-1990 | Other </td>
+                                  </tr>
+                                  <tr>
+                                    <td> Children Name : Shankar Verma | 01-Jan-1995 | Other </td>
+                                  </tr>
+                                  <tr>
+                                    <td> Children Name : Vivel Verma | 01-Jan-1999 | Other   </td>
+                                  </tr>
+                                  
+                                </tbody>
+                              </table>
+                            </div>
+                          </div>
                         </div>
-                        <div class="div">
-                          Rohit Kumar <br> <span class="employee-table-user-email"> webdesigning@stanvac.com </span> 
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-12">
+                          <span class="employee-table-sub-heading p-lg-2"> Emergency Contact Details </span>
+                          <!-- Default Table -->
+                          <table class="table">
+                            <tbody>
+                              <tr>  
+                                <td> Name: Amit Verma | 9876-654-321 </td>
+                              </tr>
+                              <tr>
+                                <td>Name: Amit Verma | 9876-654-321 </td>
+                              </tr>
+                              
+                            </tbody>
+                          </table>
+                          <!-- End Default Table Example -->
                         </div>
-                      </div>
-
-                    </td>
-                    <td>110026</td>
-                    <td>+91-8585909586</td>
-                    <td>27-Feb-2022</td>
-                    <td>UI Designer</td>
-                    <td> 
-                      <span class="pr-2"><i class="bi bi-eye px-1"></i> </span> 
-                      <span> <i class="bi bi-pencil-square px-1"></i></span>
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <th><input type="checkbox" class="form-check-input" id="exampleCheck1"></th>
-                    <td>
-                      
-                      <div class="d-flex">
-                        <div class="table-avatar">
-                          <img src="assets/img/table-avatar.jpg" alt="Profile" class="rounded-circle">
-                        </div>
-                        <div class="div">
-                          Rohit Kumar <br> <span class="employee-table-user-email"> webdesigning@stanvac.com </span> 
-                        </div>
-                      </div>
-                    </td>
-                    <td>110026</td>
-                    <td>+91-8585909586 </td>
-                    <td>27-Feb-2022</td>
-                    <td>UI Designer</td>
-                  <td> 
-                      <span class="pr-2"><i class="bi bi-eye px-1"></i> </span> 
-                      <span> <i class="bi bi-pencil-square px-1"></i></span>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th><input type="checkbox" class="form-check-input" id="exampleCheck1"></th>
-                    <td>
-                      
-                      <div class="d-flex">
-                        <div class="table-avatar">
-                          <img src="assets/img/table-avatar.jpg" alt="Profile" class="rounded-circle">
-                        </div>
-                        <div class="div">
-                          Rohit Kumar <br> <span class="employee-table-user-email"> webdesigning@stanvac.com </span> 
-                        </div>
-                      </div>
-
-                    </td>
-                    <td>110026</td>
-                    <td>+91-8585909586 </td>
-                    <td>27-Feb-2022</td>
-                    <td>UI Designer</td>
-                  <td> 
-                      <span class="pr-2"><i class="bi bi-eye px-1"></i> </span> 
-                      <span> <i class="bi bi-pencil-square px-1"></i></span>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th><input type="checkbox" class="form-check-input" id="exampleCheck1"></th>
-                    <td>
-                      
-                      <div class="d-flex">
-                        <div class="table-avatar">
-                          <img src="assets/img/table-avatar.jpg" alt="Profile" class="rounded-circle">
-                        </div>
-                        <div class="div">
-                          Rohit Kumar <br> <span class="employee-table-user-email"> webdesigning@stanvac.com </span> 
-                        </div>
-                      </div>
-
-                    </td>
-                    <td>110026</td>
-                    <td>+91-8585909586 </td>
-                    <td>27-Feb-2022</td>
-                    <td>UI Designer</td>
-                  <td> 
-                      <span class="pr-2"><i class="bi bi-eye px-1"></i> </span> 
-                      <span> <i class="bi bi-pencil-square px-1"></i></span>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th><input type="checkbox" class="form-check-input" id="exampleCheck1"></th>
-                    <td>
-                      
-                      <div class="d-flex">
-                        <div class="table-avatar">
-                          <img src="assets/img/table-avatar.jpg" alt="Profile" class="rounded-circle">
-                        </div>
-                        <div class="div">
-                          Rohit Kumar <br> <span class="employee-table-user-email"> webdesigning@stanvac.com </span> 
-                        </div>
-                      </div>
-
-                    </td>
-                    <td>110026</td>
-                    <td>+91-8585909586 </td>
-                    <td>27-Feb-2022</td>
-                    <td>UI Designer</td>
-                  <td> 
-                      <span class="pr-2"><i class="bi bi-eye px-1"></i> </span> 
-                      <span> <i class="bi bi-pencil-square px-1"></i></span>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th><input type="checkbox" class="form-check-input" id="exampleCheck1"></th>
-                    <td>
-                      
-                      <div class="d-flex">
-                        <div class="table-avatar">
-                          <img src="assets/img/table-avatar.jpg" alt="Profile" class="rounded-circle">
-                        </div>
-                        <div class="div">
-                          Rohit Kumar <br> <span class="employee-table-user-email"> webdesigning@stanvac.com </span> 
-                        </div>
-                      </div>
-
-                    </td>
-                    <td>110026</td>
-                    <td>+91-8585909586 </td>
-                    <td>27-Feb-2022</td>
-                    <td>UI Designer</td>
-                  <td> 
-                      <span class="pr-2"><i class="bi bi-eye px-1"></i> </span> 
-                      <span> <i class="bi bi-pencil-square px-1"></i></span>
-                    </td>
-                  </tr>
-                  
-                  
-                  
-                </tbody>
-              </table>
-              <!-- End Employee Table -->
-
-              <!-- Start Pagination  -->
-            <div class="row py-2">
-              <div class="col-lg-4">
-
-              </div>
-
-              <div class="col-lg-4">
-                <div class="text-center">
-                  <button type="submit" class="btn border stanvac-btn-border-blue px-5"> Next </button>
+             
                 </div>
+                <!-- End Family Information -->
+
+
+
+
+
               </div>
-
-              <div class="col-lg-4">
-                <div class="d-flex flex-row-reverse pagination-table-pr">
-                  <nav aria-label="Page navigation example">
-                    <ul class="pagination">
-                      <li class="page-item">
-                        <a class="page-link" href="#" aria-label="Previous">
-                          <span aria-hidden="true">&laquo;</span>
-                        </a>
-                      </li>
-                      <li class="page-item"><a class="page-link" href="#">1</a></li>
-                      <li class="page-item">
-                        <a class="page-link" href="#" aria-label="Next">
-                          <span aria-hidden="true">&raquo;</span>
-                        </a>
-                      </li>
-                    </ul>
-                  </nav>
-                </div>
-              </div>
-
             </div>
-            <!-- End Pagination  -->
-
-            </div>
-
           </div>
-        </div>
+          <!-- End Personal Information -->
 
+          
+          <!-- 2 Education Detail  -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <span class="accordian_title">Education Detail</span>
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <div class="row">
+                  <div class="col-lg-4 col-md-12 col-sm-12">
+                    <span class="employee-table-sub-heading p-lg-2"> High School </span>
+                    <!-- Default Table -->
+                    <table class="table">
+                        
+                      <tbody>
+                        <tr>  
+                          <td> SSC or Equivalent : Equivalent  </td>
+                        </tr>
+                        <tr>
+                          <td> School: ABC Public School </td>
+                        </tr>
+                        <tr>
+                          <td> Passing Year: 2009 </td>
+                        </tr>
+                        <tr>
+                          <td> Percentage %: 95% </td>
+                        </tr>
+                        <tr>
+                          <td> Marksheet Attachment: View  </td>
+                        </tr>
+                      </tbody>
+
+                    </table>
+                    <!-- End Default Table Example -->
+                  </div>
+
+                  <div class="col-lg-4 col-md-12 col-sm-12">
+
+                    <span class="employee-table-sub-heading p-lg-2"> Intermediate </span>
+                    <!-- Default Table -->
+                    <table class="table">
+                        
+                      <tbody>
+                        <tr>  
+                          <td> School: ABC Public School </td>
+                        </tr>
+                        <tr>
+                          <td> Board: CBSE  </td>
+                        </tr>
+                        <tr>
+                          <td> Passing Year: 2009 </td>
+                        </tr>
+                        <tr>
+                          <td> Percentage %: 95% </td>
+                        </tr>
+                        <tr>
+                          <td> Marksheet Attachment: View  </td>
+                        </tr>
+                      </tbody>
+
+                    </table>
+                    <!-- End Default Table Example -->
+                  </div>
+
+                  <div class="col-lg-4 col-md-12 col-sm-12">
+                    <span class="employee-table-sub-heading p-lg-2"> Diploma </span>
+                    <!-- Default Table -->
+                    <table class="table">
+                        
+                      <tbody>
+                        <tr>  
+                          <td> School: ABC Public School </td>
+                        </tr>
+                        <tr>
+                          <td> Board: CBSE  </td>
+                        </tr>
+                        <tr>
+                          <td> Passing Year: 2009 </td>
+                        </tr>
+                        <tr>
+                          <td> Percentage %: 95% </td>
+                        </tr>
+                        <tr>
+                          <td> Marksheet Attachment: View  </td>
+                        </tr>
+                      </tbody>
+
+                    </table>
+                    <!-- End Default Table Example -->
+                  </div>
+
+
+                </div>
+
+                <hr> 
+                <div class="row">
+                  <div class="col-lg-4 col-md-12 col-sm-12">
+                    <span class="employee-table-sub-heading p-lg-2"> Degree </span>
+                    <!-- Default Table -->
+                    <table class="table">
+                        
+                      <tbody>
+                        <tr>  
+                          <td> College: Din Dayal College </td>
+                        </tr>
+                        <tr>
+                          <td> University: DU  </td>
+                        </tr>
+                        <tr>
+                          <td> Course: ABC  </td>
+                        </tr>
+                        <tr>
+                          <td> Full time: 2013 </td>
+                        </tr>
+                        <tr>
+                          <td> Duration: 4 years  </td>
+                        </tr>
+                        <tr>
+                          <td> Percentage %: 84%  </td>
+                        </tr>
+                        <tr>
+                          <td> Passing Year: 2014  </td>
+                        </tr>
+                        <tr>
+                          <td> Diploma Attachment: View </td>
+                        </tr>
+                      </tbody>
+
+                    </table>
+                    <!-- End Default Table Example -->
+                  </div>
+
+                  <div class="col-lg-4 col-md-12 col-sm-12">
+                    <span class="employee-table-sub-heading p-lg-2"> Post Graduate </span>
+                    <!-- Default Table -->
+                    <table class="table">
+                        
+                      <tbody>
+                        <tr>  
+                          <td> College: Din Dayal College </td>
+                        </tr>
+                        <tr>
+                          <td> University: DU  </td>
+                        </tr>
+                        <tr>
+                          <td> Course: ABC  </td>
+                        </tr>
+                        <tr>
+                          <td> Full time: 2013 </td>
+                        </tr>
+                        <tr>
+                          <td> Duration: 4 years  </td>
+                        </tr>
+                        <tr>
+                          <td> Percentage %: 84%  </td>
+                        </tr>
+                        <tr>
+                          <td> Passing Year: 2014  </td>
+                        </tr>
+                        <tr>
+                          <td> Diploma Attachment: View </td>
+                        </tr>
+                      </tbody>
+
+                    </table>
+                    <!-- End Default Table Example -->
+                  </div>
+
+                  <div class="col-lg-4 col-md-12 col-sm-12">
+                    <h6> <b>  </b> </h6>
+                    <span class="employee-table-sub-heading p-lg-2"> Post Graduate  </span>
+                    <!-- Default Table -->
+                    <table class="table">
+                        
+                      <tbody>
+                        <tr>  
+                          <td> College: Din Dayal College </td>
+                        </tr>
+                        <tr>
+                          <td> University: DU  </td>
+                        </tr>
+                        <tr>
+                          <td> Course: ABC  </td>
+                        </tr>
+                        <tr>
+                          <td> Full time: 2013 </td>
+                        </tr>
+                        <tr>
+                          <td> Duration: 4 years  </td>
+                        </tr>
+                        <tr>
+                          <td> Percentage %: 84%  </td>
+                        </tr>
+                        <tr>
+                          <td> Passing Year: 2014  </td>
+                        </tr>
+                        <tr>
+                          <td> Diploma Attachment: View </td>
+                        </tr>
+                      </tbody>
+
+                    </table>
+                    <!-- End Default Table Example -->
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Education Details -->
+          
+          <!-- 3 Work Experience -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <span class="accordian_title">Work Experience </span>
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse show" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <form> 
+                <div class="row">
+                  <div class="col-lg-3 col-md-3 mt-2">
+                    <label for="inputNanme4" class="form-label"> Employee Name  </label>
+                    <input type="text" class="form-control" id="inputNanme4" placeholder=" ">
+                  </div>
+                  <div class="col-lg-3 col-md-3 mt-2">
+                    <label for="inputNanme4" class="form-label"> Designation  </label>
+                    <input type="text" class="form-control" id="inputNanme4" placeholder=" ">
+                  </div>
+                  <div class="col-lg-3 col-md-3 mt-2">
+                    <label for="inputNanme4" class="form-label"> Duration  </label>
+                    <input type="date" class="form-control">
+                  </div>
+                  <div class="col-lg-3 col-md-3 mt-2">
+                    <label for="inputNanme4" class="form-label"> Salary Slip Attachment  </label>
+                    <input class="form-control" type="file" id="formFile">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-3 col-md-3 mt-2">
+                    <label for="inputNanme4" class="form-label"> Employee Name  </label>
+                    <input type="text" class="form-control" id="inputNanme4" placeholder=" ">
+                  </div>
+                  <div class="col-lg-3 col-md-3 mt-2">
+                    <label for="inputNanme4" class="form-label"> Designation  </label>
+                    <input type="text" class="form-control" id="inputNanme4" placeholder=" ">
+                  </div>
+                  <div class="col-lg-3 col-md-3 mt-2">
+                    <label for="inputNanme4" class="form-label"> Duration  </label>
+                    <input type="date" class="form-control">
+                  </div>
+                  <div class="col-lg-3 col-md-3 mt-2">
+                    <label for="inputNanme4" class="form-label"> Salary Slip Attachment  </label>
+                    <input class="form-control" type="file" id="formFile">
+                  </div>
+                </div>
+              </form>
+              </div>
+            </div>
+          </div>
+          <!-- End Work Experience -->
+
+          <!-- 4 Other Details -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                <span class="accordian_title">Other Details</span>  
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse show" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <div class="row">
+                  <div class="col-lg-8 col-md-6 col-12">
+                    <span class="employee-table-sub-heading p-lg-2"> ICICI Account Detail/Other Bank Detail  </span>
+                    <div class="row">
+                      
+                      <div class="col-lg-6">
+                        <table class="table">
+                        
+                          <tbody>
+                            <tr>  
+                              <td> Name : Ravi Sharma  </td>
+                            </tr>
+                            <tr>
+                              <td> Bank Name : ICICI Bank  </td>
+                            </tr>
+                            <tr>
+                              <td> Account Number : 0296746687   </td>
+                            </tr>
+    
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="col-lg-6">
+                        <table class="table pt-5">
+                       
+                          <tbody>
+                            <tr>  
+                              <td> Branch Name & Address : New Delhi  </td>
+                            </tr>
+                            <tr>
+                              <td> IFSC Code : ICIC0000546 </td>
+                            </tr>
+                            <tr>
+                              <td> Cancel Cheque Attachment : View   </td>
+                            </tr>
+     
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                    
+                     <!-- Default Table -->
+                     
+                    <!-- End Default Table Example -->
+                  </div>
+
+
+                  <div class="col-lg-4">
+                    <span class="employee-table-sub-heading p-lg-2"> Health Data </span>
+                    
+                    <!-- Default Table -->
+                    <table class="table">
+                      
+                    <tbody>
+                      <tr>  
+                        <td> Blood Group : O+ </td>
+                      </tr>
+                      <tr>
+                        <td> Any Illness : No Illness </td>
+                      </tr>
+                      <tr>
+                        <td> Shirt Size : 44  </td>
+                      </tr>
+
+                    </tbody>
+                  </table>
+                    
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Other Details  -->
+
+
+        </div><!-- End Employee Example -->
       </div>
     </section>
-    <!-- Section End Employee List Table -->
+    <!-- Accordian Section -->    
 
 
   </main><!-- End #main -->
