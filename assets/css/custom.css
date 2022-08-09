@@ -230,13 +230,13 @@ th{
 }
 
 .flex-single-column img{
-    width: 50px;
+    width: 40px;
     margin-right: 10px;
     border-radius: 5px;
     border: solid 1px rgb(184, 180, 180);
 }
 .flex-single-column .username{
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 600;
 }
 .flex-single-column .sub-heading{
@@ -464,7 +464,7 @@ th{
     }
     .login-welcome{
         font-size: 30px;
-        padding-top: 30px;
+        /* padding-top: 30px; */
     }
     .stanvac-login-background{
         background-image: url("../img/login-bg.jpg");
@@ -522,7 +522,7 @@ th{
     }
     .login-welcome{
         font-size: 30px;
-        padding-top: 50px;
+        /* padding-top: 50px; */
     }
     .stanvac-login-content{
         padding-left: 10px;
@@ -663,8 +663,7 @@ th{
     }
     .login-welcome{
         font-size: 60px;
-        padding-top: 30%;
-        padding-bottom: 30%;
+        
     }
     .logo {
         width: 260px;
@@ -704,3 +703,22 @@ th{
     }
 }
 
+.absolute{
+   position: relative;  
+}
+
+.middle p{
+    position: absolute;
+    top:50%;
+
+}
+
+
+
+.absolute p {
+    position: absolute;
+  /*   height: 100%; */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+  }
