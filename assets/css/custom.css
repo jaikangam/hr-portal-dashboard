@@ -32,6 +32,28 @@ body{
 .text-stanvac-orange{
     color: #ef6500;
 }
+.input::-webkit-input-placeholder {
+    font-size: 14px;
+    line-height: 3;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.375rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    font-size: 14px;
+}
 
 /* ========== End Fonts ========== */
 
@@ -434,9 +456,12 @@ th{
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 575.98px) {
-   /* .main{
+   .main{
         background-color: orange;
-    }  */
+    } 
+    .main-login{
+        background-color: orange;
+    }
     .login-welcome{
         font-size: 30px;
         padding-top: 30px;
@@ -480,9 +505,13 @@ th{
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-    /* .main{
+    .main{
         background-color: yellow;
-    }  */
+    } 
+    .main-login{
+        background-color: yellow;
+    }
+
     .stanvac-login-background{
         background-image: url("../img/login-bg.jpg");
         max-width: 100%;
@@ -529,9 +558,13 @@ th{
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-    /* .main{
+    .main{
         background-color: red;
-    }     */
+    }  
+    .main-login{
+        background-color: red;
+    }
+
     .login-welcome{
         font-size: 30px;
         padding-top: 50px;
@@ -578,9 +611,12 @@ th{
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    /* .main{
+    .main{
         background-color: green;
-    }  */
+    }
+    .main-login{
+        background-color: green;
+    }
     .login-welcome{
         font-size: 50px;
         padding-top: 130px;
@@ -592,8 +628,8 @@ th{
         border-radius: 5px;
         background-repeat: no-repeat;
         background-size: 100% 100%;
-        margin-left: -20px;
-        margin-bottom: -10px;
+        margin-left: -10px;
+        margin-bottom: -20px;
     }
    
    
@@ -619,12 +655,16 @@ th{
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px)  {
-    /* .main{
+    .main{
         background-color: #fff;
-    }  */
+    } 
+    .main-login{
+        background-color: #fff;
+    }
     .login-welcome{
         font-size: 60px;
-        padding-top: 120px;
+        padding-top: 30%;
+        padding-bottom: 30%;
     }
     .logo {
         width: 260px;
@@ -639,8 +679,9 @@ th{
         border-radius: 5px;
         background-repeat: no-repeat;
         background-size: 100% 100%;
-        margin-left: -20px;
-        margin-bottom: -10px;
+        margin-left: -10px; 
+        margin-bottom: -20px;
+        padding-left: 30px;
     }
     .stanvac-login-content{
         padding-left: 35px;
@@ -663,8 +704,3 @@ th{
     }
 }
 
-
-
-/* Joining Form */
-/* Joining Form */
-/* Joining Form */
