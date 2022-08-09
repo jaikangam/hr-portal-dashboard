@@ -91,7 +91,7 @@ body{
 
 /* ========== Start Sidebar ========== */
 .sidebar {
-    width: 290px; 
+    width: 230px; 
     padding: 0px;   
 }
 
@@ -655,6 +655,10 @@ th{
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px)  {
+    #main{
+        margin-left: 240px;
+    }
+    
     .main{
         background-color: #fff;
     } 
@@ -666,7 +670,7 @@ th{
         
     }
     .logo {
-        width: 260px;
+        width: 200px;
     }
     .pagination-table-pr{
         padding-right: 30px;
