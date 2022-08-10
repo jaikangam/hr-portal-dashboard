@@ -108,6 +108,28 @@ body{
 
 
 
+/* ========== Form ========= */
+.input-group > .form-control, .input-group > .form-floating, .input-group > .form-select {
+    position: relative;
+    flex: 1 1 auto;
+    width: 1%;
+    min-width: 0;
+    background: #fff;
+}
+#yourPassword{
+    background-color: #fff;
+}
+
+
+
+
+
+/* ========== End Form ========= */
+
+
+
+
+
 /* ========== Start Sidebar ========== */
 .sidebar {
     width: 210px; 
@@ -482,7 +504,7 @@ th{
     }
     .login-welcome{
         font-size: 30px;
-        /* padding-top: 30px; */
+        padding-top: 30px;
     }
     .stanvac-login-background{
         background-image: url("../img/login-bg.jpg");
@@ -594,15 +616,21 @@ th{
         border-radius: 5px;
         background-repeat: no-repeat;
         background-size: 100% 100%;
+        /* margin-left: -5px; */
+        margin-right: -20px;
+        z-index: inherit;
     }
+
     .card-body {
         padding: 0px 10px 10px;
     }
     .stanvac-login-content{
         padding-left: 10px;
-        padding-right: 10px;
+        padding-right: -10px;
     }
-    
+    .logo-welcome-back{
+        padding-left: 10px;
+    }
     
     .nav-title{
         text-decoration: none;
@@ -637,8 +665,14 @@ th{
     }
     .login-welcome{
         font-size: 50px;
-        padding-top: 130px;
+        padding-top: 100px;
     }
+
+    .stanvac-login-content{
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+
     .stanvac-login-background{
         background-image: url("../img/login-bg.jpg");
         max-width: 100%;
@@ -646,11 +680,10 @@ th{
         border-radius: 5px;
         background-repeat: no-repeat;
         background-size: 100% 100%;
-        margin-left: -10px;
+        margin-left: -15px;
         margin-bottom: -20px;
+        padding-left: 30px;
     }
-   
-   
 
     .nav-title{
         text-decoration: none;
@@ -685,7 +718,7 @@ th{
     }
     .login-welcome{
         font-size: 60px;
-        
+        padding-top: 80px;   
     }
     .logo {
         width: 180px;
@@ -700,7 +733,7 @@ th{
         border-radius: 5px;
         background-repeat: no-repeat;
         background-size: 100% 100%;
-        margin-left: -10px; 
+        margin-left: -15px; 
         margin-bottom: -20px;
         padding-left: 30px;
     }
@@ -735,15 +768,6 @@ th{
 
 }
 
-
-
-.absolute p {
-    position: absolute;
-  /*   height: 100%; */
-    top: 50%;
-    transform: translateY(-50%);
-    width: 100%;
-  }
 
   .row {
     --bs-gutter-x: 10px;
