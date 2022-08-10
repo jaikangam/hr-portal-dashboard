@@ -55,7 +55,12 @@ body{
     font-size: 14px;
 }
 
+.font-wight-600{
+    font-weight: 600;
+}
 /* ========== End Fonts ========== */
+
+
 
 
 
@@ -81,7 +86,21 @@ body{
     color:#fff;
     border-radius: 5px;
 }
-
+.stanvac-btn-border-orange{
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-color: #ef6500 !important;
+}
+.stanvac-btn-border-blue{
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-color: #2387c8 !important;
+}
+.placeholder-rtl{
+    text-align: right;
+}
 /* ========== End Button ========== */
 
 
@@ -91,7 +110,7 @@ body{
 
 /* ========== Start Sidebar ========== */
 .sidebar {
-    width: 230px; 
+    width: 210px; 
     padding: 0px;   
 }
 
@@ -104,7 +123,7 @@ body{
     margin-right: 10px;
 }
 .sidebar-username{
-    font-size: 17px;
+    font-size: 16px;
     color: #fff;
 }
 .sidebar-hr{
@@ -131,6 +150,8 @@ body{
 .sidebar-nav .nav-link {
     color: rgba(230, 240, 224, 0.636);
     font-weight: 400;
+    font-size: 14px;
+    padding: 5px 10px;
 }
 
 .sidebar-nav .nav-content a:hover {
@@ -139,6 +160,11 @@ body{
 .nav-link.i.active{
     color: rgb(129, 35, 35);
     
+}
+.sidebar-nav .nav-link i {
+    font-size: 10px;
+    margin-right: 10px;
+    color: #fff;
 }
 /* ========== End Sidebar =========== */
 
@@ -161,13 +187,13 @@ body{
     flex: 1 1 auto;
     padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
     color: var(--bs-card-color);
-    padding: 10px 20px 20px 20px;
-    
+    padding: 20px 20px 20px 20px;
 }
 .stanvac-card-number{
     font-size: 18px;
     font-weight: 600;
     color: #ef6500;
+    margin-top: -3px;
 }
 .stanvac_card_policy img{
     padding-top: 10px;
@@ -209,12 +235,13 @@ th{
 
 
 
+
+
 /* ========== Master Data Flex Container ========== */
 .flex-container {
     display: flex;
     flex-wrap: wrap;
     border-radius: 50px;
-
 }
 
 .flex-container > div  {
@@ -230,7 +257,7 @@ th{
 }
 
 .flex-single-column img{
-    width: 40px;
+    width: 45px;
     margin-right: 10px;
     border-radius: 5px;
     border: solid 1px rgb(184, 180, 180);
@@ -243,6 +270,7 @@ th{
     font-weight: 600;
 }
 /* ========== End Master Data Flex Container ========== */
+
 
 
 
@@ -295,12 +323,13 @@ th{
     border-right: none;
     border-bottom: 3px solid #2387c8;
     font-size: 17px;
+    padding-bottom: 10px;
     
 }
 .accordion-button{
     background-color: none;
     border-radius: 5px;
-    padding: 25px 30px;
+    /* padding: 25px 30px; */
     border-top: solid 1px  rgb(186, 173, 173);
 }
 
@@ -326,8 +355,8 @@ th{
     padding-bottom: 15px;
     font-weight: 500;
 }
-
 /* ========== End Accordina ========== */
+
 
 
 
@@ -356,9 +385,6 @@ th{
     padding-left: 10px;
     padding-right: 10px;
 }
-
-
-
 
 
 .stanvac-login-background{
@@ -411,21 +437,7 @@ th{
     margin-top:25%;
 }
 
-.stanvac-btn-border-orange{
-    border-radius: 5px;
-    padding-left: 30px;
-    padding-right: 30px;
-    border-color: #ef6500 !important;
-}
-.stanvac-btn-border-blue{
-    border-radius: 5px;
-    padding-left: 30px;
-    padding-right: 30px;
-    border-color: #2387c8 !important;
-}
-.placeholder-rtl{
-    text-align: right;
-}
+
 
 
 
@@ -434,16 +446,22 @@ th{
 
 /* Navbar code  */
 
-
-
-
-
 .header-nav .nav-icon {
     font-size: 22px;
-    color: #012970;
+    color: #000;
     /* margin-right: 25px; */
     position: relative;
 }
+.header .toggle-sidebar-btn {
+    font-size: 25px;
+    padding-left: 10px;
+    cursor: pointer;
+    color: #000;
+}
+
+
+
+
 
 
 
@@ -656,9 +674,9 @@ th{
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px)  {
     #main{
-        margin-left: 240px;
+        margin-left: 210px;
     }
-    
+
     .main{
         background-color: #fff;
     } 
@@ -670,7 +688,7 @@ th{
         
     }
     .logo {
-        width: 200px;
+        width: 180px;
     }
     .pagination-table-pr{
         padding-right: 30px;
@@ -699,7 +717,7 @@ th{
         border-left: none;
         border-right: none;
         border-bottom: 3px solid #2387c8;
-        font-size: 21px;
+        font-size: 20px;
         margin-bottom: -5px;
         background-color: #fff;
         padding-top: 10px;
@@ -726,3 +744,13 @@ th{
     transform: translateY(-50%);
     width: 100%;
   }
+
+  .row {
+    --bs-gutter-x: 10px;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
