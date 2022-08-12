@@ -38,80 +38,84 @@
   <main class="main-login">
     <div class="container">
 
-      <section class="section register min-vh-100 d-flex flex-column align-items-center justify-content-center py-4">
+      <section class="section register min-vh-100  d-flex align-items-center">
         <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-8 col-md-6 d-flex flex-column align-items-center justify-content-center">
-              <div class="card ">
-                <div class="card-body">
+          <div class="row">
+            <div class="col-lg-8 offset-lg-2 col-md-12 ">
+              <div class="login-card">
+                <div class="login-card-body">
                   <div class="row">
                       <!-- Half Column -->
-                      <div class="col-lg-6 pb-5 pt-4 stanvac-login-background">
-                        <div class="logo-welcome-back">
-                          <!-- Stanvac Logo -->
-                          <div class="col-12">
-                            <a href="dashboard.html" class="login-logo">
-                              <img src="assets/img/stanvac-logo.jpg" alt="">
-                            </a>
+                      <div class="col-lg-6 stanvac-login-background">
+                        <div class="login-padding">
+                          <div class="row">
+                            <div class="col-12">
+                              <a href="dashboard.html" class="login-logo">
+                                <img src="assets/img/stanvac-logo.jpg" alt="">
+                              </a>
+                            </div>
                           </div>
-                          <!-- End Stanvac Logo -->
-
-                          <!-- Welcome back -->
-                          <div class="col-12">
-                            <p class="text-white login-welcome"> <b> Welcome Back! </b> </p>
+                          <div class="row vertical_middle">
+                            <div class="col-12">
+                              <p class="text-white login-welcome"> <b> Welcome Back! </b> </p>
+                            </div>
                           </div>
-                          <!-- End Welcome Back -->
-                          </div>    
+                        </div>
                       </div>
                       <!-- End Half Column  -->
 
 
                       <!-- Other Half Column -->
-                      <div class="col-lg-6 pb-4 pt-4">
-                        <!-- superon Logo -->
-                        <div class="col-12 d-flex flex-row-reverse">
-                          <a href="dashboard.html" class="login-logo">
-                            <img src="assets/img/superon-logo.png" alt="">
-                          </a>
-                        </div>
-                        <!-- End superon Logo -->
-                        <div class="stanvac-login-content">
-                          <div class=" pb-2">
-                            <h5 class="card-title text-left text-black pb-0 fs-4"> <b> Login </b></h5>
-                            <p class="text-left">Welcome back! Please login to your account.</p>
+                      <div class="col-lg-6">
+                        <div class="login-padding">
+                          <div class="row">
+                            <!-- superon Logo -->
+                            <div class="col-12 d-flex flex-row-reverse">
+                              <a href="dashboard.html" class="login-logo">
+                                <img src="assets/img/superon-logo.png" alt="">
+                              </a>
+                            </div>
+                            <!-- End superon Logo -->
                           </div>
-                          <form class="row g-3 needs-validation pb-2" novalidate>
-      
-                            <div class="col-12">
-                              <label for="yourUsername" class="form-label">User Name</label>
-                              <div class="input-group has-validation">
-                                <input type="text" name="username" class="form-control" id="yourUsername" placeholder="username@stanvac.com" required>
-                                <!-- <div class="invalid-feedback">Please enter your username.</div> -->
-                              </div>
-                            </div>
-        
-                            <div class="col-12 py-2">
-                              <label for="yourPassword" class="form-label">Password</label>
-                              <input type="password" name="password" class="form-control" id="yourPassword" placeholder="*********" required>
-                              <!-- <div class="invalid-feedback">Please enter your password!</div> -->
-                            </div>
-        
-                            <div class="col-12 py-2">
-                              <div class="d-flex justify-content-between">
-                                <div class="form-check">
-                                  <input class="form-check-input" type="checkbox" name="remember" value="true" id="rememberMe">
-                                  <label class="form-check-label" for="rememberMe">Remember me</label>
+                          <div class="row ">
+                            <div class="vertical_middle stanvac-login-content">
+                              <form class="row needs-validation " novalidate>
+                                <h3 class="text-left text-black"> <b> Login </b></h3>
+                                <p class="text-left">Welcome back! Please login to your account.</p>
+                                <div class="col-12 py-2">
+                                  <label for="yourUsername" class="form-label">User Name</label>
+                                  <div class="input-group has-validation">
+                                    <input type="text" name="username" class="form-control" id="yourUsername" placeholder="username@stanvac.com" required>
+                                    <!-- <div class="invalid-feedback">Please enter your username.</div> -->
+                                  </div>
                                 </div>
-                                <div class="">                                
-                                  <div>I forgot Password</div>
+            
+                                <div class="col-12 py-2">
+                                  <label for="yourPassword" class="form-label">Password</label>
+                                  <input type="password" name="password" class="form-control" id="yourPassword" placeholder="*********" required>
+                                  <!-- <div class="invalid-feedback">Please enter your password!</div> -->
                                 </div>
-                              </div>
-                              
+            
+                                <div class="col-12 py-2">
+                                  <div class="d-flex justify-content-between">
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" name="remember" value="true" id="rememberMe">
+                                      <label class="form-check-label" for="rememberMe">Remember me</label>
+                                    </div>
+                                    <div class="">                                
+                                      <div>I forgot Password</div>
+                                    </div>
+                                  </div>
+                                  
+                                </div>
+                                <div class="col-12">
+                                  <a href="dashboard.html">
+                                    <button class="btn btn-stanvac-orange w-100" type="submit">Login</button>
+                                  </a>
+                                </div>
+                              </form>
                             </div>
-                            <div class="col-12">
-                              <button class="btn btn-stanvac-orange w-100" type="submit">Login</button>
-                            </div>
-                          </form>
+                          </div>
                         </div>
                       </div>
                       <!-- End Other half Column -->
@@ -119,9 +123,6 @@
 
                 </div>
               </div>
-
-              
-
             </div>
           </div>
         </div>
