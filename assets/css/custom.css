@@ -4,10 +4,12 @@ Framework: Bootstrap 5
 Edited by : Jaikangam Malangmei 
 Website : www.jaikangam.com
 */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 
 /* */
 body{
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     background-color: #fff;
 }
@@ -17,7 +19,15 @@ body{
 .back-to-top:hover{
     background: #2387c8;
 }
-
+a {
+    color: #2b2b2b;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: #2b2b2b;
+    text-decoration: none;
+}
 
 /* ========== Fonts ========== */
 .stanvac-font{
@@ -39,6 +49,10 @@ body{
 
 .font-wight-600{
     font-weight: 600;
+}
+b, strong {
+    font-weight: 700;
+    font-family: 'Montserrat';
 }
 /* ========== End Fonts ========== */
 
@@ -189,7 +203,7 @@ body{
 /* Active  */
 .sidebar-menu .nav-link.active{
     color: rgb(255, 255, 255);
-    font-weight: 600;
+    font-weight: 500;
 }
 .nav-link.active {
     color: rgb(129, 35, 35);
@@ -264,6 +278,15 @@ body{
     box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1); 
     background-color: none !important; 
 }
+.stanvac_policy_card a{
+    color: #000;
+    text-decoration: none;
+}
+
+.stanvac_policy_card a:hover {
+    color: #000;
+    text-decoration: none;
+  }
 
 .stanvac_card_policy {
     flex: 1 1 auto;
@@ -286,17 +309,14 @@ body{
 /* ========== Login Card =========== */
 .login-card {
     background-color: #fff;
-    border: none;
+    margin-left: 5px;
     border-radius: 5px;
     box-shadow: 0px 0 30px rgb(1 41 112 / 10%);
 }
 
 .login-card-body {
-    padding: 0 0px 0px 0px;
+    
 }
-
-
-
 .login-logo img{
     width: 90px;
 }
@@ -621,11 +641,10 @@ th{
     .stanvac-login-background{
         background-image: url("../img/login-bg.jpg");
         max-width: 90vw;
-        max-height: 100vh;
+        /* max-height: 100vh; */
         border-radius: 5px;
         background-repeat: no-repeat;
         background-size: 100% 100%;
-    
     }
     
     .nav-title{
@@ -685,6 +704,7 @@ th{
         border-radius: 5px;
         background-repeat: no-repeat;
         background-size: 100% 100%;
+        margin-right: 5px;
     
     }
 
@@ -693,6 +713,7 @@ th{
         padding-right: 20px;
         padding-top: 20px;
         padding-bottom: 40px;
+        margin-right: 10px;
     }
 
     
@@ -754,11 +775,9 @@ th{
     }
     .stanvac-login-background{
         background-image: url("../img/login-bg.jpg");
-        max-width: 90vw;
-        max-height: 100vh;
         border-radius: 5px;
         background-repeat: no-repeat;
-        background-size: 100% 100%;
+        background-size: cover;
         padding-left: 10px;
         margin-left: 5px;
         margin-right: -20px;
@@ -814,7 +833,7 @@ th{
     .stanvac-login-background{
         background-image: url("../img/login-bg.jpg");
         max-width: 90vw;
-        max-height: 100vh;
+
         border-radius: 5px;
         background-repeat: no-repeat;
         background-size: 100% 100%;
@@ -893,12 +912,10 @@ th{
     }
     .stanvac-login-background{
         background-image: url("../img/login-bg.jpg");
-        max-width: 90vw;
-        max-height: 100vh;
         border-radius: 5px;
         background-repeat: no-repeat;
-        background-size: 100% 100%;
-    
+        background-size: cover;
+        margin-left: 0px;
     }
     .stanvac-login-content{
         padding-right: 30px;
@@ -953,4 +970,115 @@ th{
 
 
 
+/*===================*/
+/* WOOBLE VERTICAL
+/*===================*/
 
+@-webkit-keyframes wobble-vertical-on-hover {
+    16.65% {
+      -webkit-transform: translateY(8px);
+      transform: translateY(8px);
+    }
+    33.3% {
+      -webkit-transform: translateY(-6px);
+      transform: translateY(-6px);
+    }
+    49.95% {
+      -webkit-transform: translateY(4px);
+      transform: translateY(4px);
+    }
+    66.6% {
+      -webkit-transform: translateY(-2px);
+      transform: translateY(-2px);
+    }
+    83.25% {
+      -webkit-transform: translateY(1px);
+      transform: translateY(1px);
+    }
+    100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+}
+  
+.wobble-vertical-on-hover {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.wobble-vertical-on-hover:hover, .wobble-vertical-on-hover:focus, .wobble-vertical-on-hover:active {
+    -webkit-animation-name: wobble-vertical-on-hover;
+    animation-name: wobble-vertical-on-hover;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+
+
+/*===================*/
+/* WOOBLE VERTICAL
+/*===================*/
+
+@-webkit-keyframes policy-wobble-vertical-on-hover {
+    16.65% {
+      -webkit-transform: translateY(8px);
+      transform: translateY(8px);
+    }
+    33.3% {
+      -webkit-transform: translateY(-6px);
+      transform: translateY(-6px);
+    }
+    49.95% {
+      -webkit-transform: translateY(4px);
+      transform: translateY(4px);
+    }
+    66.6% {
+      -webkit-transform: translateY(-2px);
+      transform: translateY(-2px);
+    }
+    83.25% {
+      -webkit-transform: translateY(1px);
+      transform: translateY(1px);
+    }
+    100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+}
+  
+.policy-wobble-vertical-on-hover {
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.policy-wobble-vertical-on-hover:hover, .policy-wobble-vertical-on-hover:focus, .policy-wobble-vertical-on-hover:active {
+    -webkit-animation-name: wobble-vertical-on-hover;
+    animation-name: wobble-vertical-on-hover;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: var(--bs-pagination-padding-y) var(--bs-pagination-padding-x);
+    font-size: var(--bs-pagination-font-size);
+    color: #000;
+    text-decoration: none;
+    background-color: none;
+    border: var(--bs-pagination-border-width) solid var(--bs-pagination-border-color);
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}

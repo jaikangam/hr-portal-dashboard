@@ -1,7 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body{
   font-size: 14px;
+  font-family: 'Roboto', sans-serif;
   background-color: #fff;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.joining-form{
+  font-family: 'Roboto', sans-serif;
+}
+
 .header-joining-form {
     transition: all 0.5s;
     box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
