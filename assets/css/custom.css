@@ -630,12 +630,12 @@ th{
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 575.98px) {
-   .main{
+   /* .main{
         background-color: orange;
     } 
     .main-login{
         background-color: orange;
-    }
+    } */
     .login-welcome{
         font-size: 30px;
         padding-top: 30px;
