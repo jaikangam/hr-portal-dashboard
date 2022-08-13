@@ -54,6 +54,10 @@ b, strong {
     font-weight: 700;
     font-family: 'Montserrat';
 }
+
+.stanvac_card_policy h6 {
+    font-family: 'Roboto', sans-serif;
+}
 /* ========== End Fonts ========== */
 
 
@@ -320,9 +324,6 @@ b, strong {
 .login-logo img{
     width: 90px;
 }
-
-
-
 /* ========== Login Card =========== */
 
 
@@ -332,6 +333,7 @@ b, strong {
 /* ========== Start Table ========== */
 .table-heading{
     font-size: 17px;
+    font-family: 'Roboto', sans-serif;
 }
 th{
     font-weight: 500;
@@ -439,6 +441,7 @@ th{
     border-bottom: 3px solid #2387c8;
     font-size: 17px;
     padding-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
     
 }
 .accordion-button{
@@ -522,21 +525,6 @@ th{
 	100% {opacity: 1;}s
 } 
 
-.slideUp { 
-	animation-name: slide_up; 				
-	animation-duration: 2s;        				
-} 
-@keyframes slide_up { 
-	from {
-        margin-top: 100%;
-        
-      }
-    
-      to {
-        margin-bottom: 0%;
-       
-      }
-} 
 
 /* ========== Close Animation ========== */
 
@@ -601,7 +589,17 @@ th{
     color: #000;
 }
 
-
+.page-link {
+    position: relative;
+    display: block;
+    padding: var(--bs-pagination-padding-y) var(--bs-pagination-padding-x);
+    font-size: var(--bs-pagination-font-size);
+    color: #000;
+    text-decoration: none;
+    background-color: none;
+    border: var(--bs-pagination-border-width) solid var(--bs-pagination-border-color);
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
 
 
 
@@ -652,7 +650,7 @@ th{
         border-left: none;
         border-right: none;
         border-bottom: 3px solid #2387c8;
-        font-size: 18px;
+        font-size: 20px;
         margin-bottom: -10px;
         background-color: #fff;
         padding-top: 10px;
@@ -679,12 +677,12 @@ th{
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-    .main{
+    /* .main{
         background-color: yellow;
     } 
     .main-login{
         background-color: yellow;
-    }
+    } */
 
    
     .login-welcome{
@@ -748,12 +746,12 @@ th{
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-    .main{
+    /* .main{
         background-color: red;
     }  
     .main-login{
         background-color: red;
-    }
+    } */
 
     .login-welcome{
         font-size: 30px;
@@ -814,12 +812,12 @@ th{
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    .main{
+    /* .main{
         background-color: green;
     }
     .main-login{
         background-color: green;
-    }
+    } */
     .login-welcome{
         font-size: 45px;
     }
@@ -885,7 +883,6 @@ th{
     #main{
         margin-left: 210px;
     }
-
     .main{
         background-color: #fff;
     } 
@@ -1023,9 +1020,9 @@ th{
 }
 
 
-/*===================*/
-/* WOOBLE VERTICAL
-/*===================*/
+/*==============================*/
+/* Policy Card WOOBLE VERTICAL
+/*==============================*/
 
 @-webkit-keyframes policy-wobble-vertical-on-hover {
     16.65% {
@@ -1073,14 +1070,3 @@ th{
 }
 
 
-.page-link {
-    position: relative;
-    display: block;
-    padding: var(--bs-pagination-padding-y) var(--bs-pagination-padding-x);
-    font-size: var(--bs-pagination-font-size);
-    color: #000;
-    text-decoration: none;
-    background-color: none;
-    border: var(--bs-pagination-border-width) solid var(--bs-pagination-border-color);
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-}
