@@ -524,6 +524,22 @@ th{
 	0% {opacity: 0;} 
 	100% {opacity: 1;}s
 } 
+.slideUp { 
+	animation-name: slide_up; 				
+	animation-duration: 2s;        				
+} 
+@keyframes slide_up { 
+	from {
+        margin-top: 100%;
+        
+      }
+    
+      to {
+        margin-bottom: 0%;
+       
+      }
+} 
+
 
 
 /* ========== Close Animation ========== */
