@@ -640,11 +640,9 @@ th{
     }
     .stanvac-login-background{
         background-image: url("../img/login-bg.jpg");
-        max-width: 90vw;
-        /* max-height: 100vh; */
         border-radius: 5px;
         background-repeat: no-repeat;
-        background-size: 100% 100%;
+        background-size: cover;
     }
     
     .nav-title{
@@ -699,12 +697,9 @@ th{
     }
     .stanvac-login-background{
         background-image: url("../img/login-bg.jpg");
-        max-width: 90vw;
-        max-height: 100vh;
         border-radius: 5px;
         background-repeat: no-repeat;
-        background-size: 100% 100%;
-        margin-right: 5px;
+        background-size: cover;
     
     }
 
@@ -774,13 +769,12 @@ th{
         padding-right: 20px;
     }
     .stanvac-login-background{
+        
         background-image: url("../img/login-bg.jpg");
         border-radius: 5px;
         background-repeat: no-repeat;
         background-size: cover;
-        padding-left: 10px;
-        margin-left: 5px;
-        margin-right: -20px;
+    
     }
     
 
@@ -827,17 +821,22 @@ th{
         background-color: green;
     }
     .login-welcome{
-        font-size: 50px;
+        font-size: 45px;
     }
 
     .stanvac-login-background{
         background-image: url("../img/login-bg.jpg");
+        border-radius: 5px;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        margin-bottom: -2px;
+        /* 
         max-width: 90vw;
 
         border-radius: 5px;
         background-repeat: no-repeat;
         background-size: 100% 100%;
-        margin-left: 0px;
+        margin-left: 0px; */
     
     }
 
@@ -853,7 +852,7 @@ th{
         /* border: 1px solid #006100; */
     }
     .login-padding{
-        padding-left: 10px;
+        padding-left: 20px;
         padding-right: 20px;
         padding-top: 20px;
         padding-bottom: 20px;
@@ -910,12 +909,15 @@ th{
         height: 450px;
         /* border: 1px solid #006100; */
     }
+    .blue{
+        
+        margin-bottom: 0px;
+    }
     .stanvac-login-background{
         background-image: url("../img/login-bg.jpg");
         border-radius: 5px;
         background-repeat: no-repeat;
         background-size: cover;
-        margin-left: 0px;
     }
     .stanvac-login-content{
         padding-right: 30px;
