@@ -188,3 +188,7 @@ h1, h2, h3, h4, h5, h6 {
 .text-stanvac-orange{
   color: #ef6500;
 }
+
+.pb-12{
+  padding-bottom: 12px;
+}
