@@ -313,24 +313,24 @@ b, strong {
     content: url('../img/policy-pdf-hover.png');
 }
 
-.jai_card{
+.policy_card{
     border-style: solid;
     border-width: 1px;
     border-color: #ef6500;
     border-radius: 5px;
     box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1); 
     background-color: none !important; 
-    padding:20px;
+    padding:10px;
 }
-.jai_card:hover{
+.policy_card:hover{
     border-color: #2387c8; 
 }
 
-.jai_card img{
+.policy_card img{
     width: 40px;
     padding-bottom: 10px;
 }
-.jai_card_content{
+.policy_card_content{
     padding-top: 10px;
     padding-bottom: 10px;
 }
