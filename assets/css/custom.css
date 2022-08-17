@@ -325,7 +325,7 @@ b, strong {
     border-radius: 5px;
     box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1); 
     background-color: none !important; 
-    padding:10px;
+    padding:10px 20px 10px 20px;
 }
 .policy_card:hover{
     border-color: #2387c8; 
@@ -342,6 +342,7 @@ b, strong {
 
 .policy_card_content h6{
     font-size: 14px;
+    line-height: 1.3em;
 }
 /* ========== End Stanvac Card ========== */
 
