@@ -316,10 +316,10 @@ b, strong {
 
 .hover_change_img:hover {
     content: url('../img/policy-pdf-hover.png');
-    animation: shake 0.5s;
+    /* animation: shake 0.5s; */
 }
 
-@keyframes shake {
+/* @keyframes shake {
     10%, 90% {
         transform: translate3d(-1px, 0, 0);
       }
@@ -335,7 +335,7 @@ b, strong {
       40%, 60% {
         transform: translate3d(4px, 0, 0);
       }
-}
+} */
 
 
 .policy_card{
@@ -356,7 +356,7 @@ b, strong {
     padding-bottom: 10px;
 }
 .policy_card_content{
-    padding-top: 10px;
+    padding-top: 35px;
     padding-bottom: 10px;
 }
 
@@ -365,7 +365,7 @@ b, strong {
     line-height: 1.3em;
 }
 .same-height{
-    height: 130px;
+    height: 180px;
 }
 /* ========== End Stanvac Card ========== */
 
@@ -666,10 +666,13 @@ th{
     position: relative;
 }
 .header .toggle-sidebar-btn {
-    font-size: 25px;
-    padding-left: 10px;
+    font-size: 15px;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 5px;
     cursor: pointer;
-    color: #000;
+    color: grey;
+    
 }
 
 .page-link {
